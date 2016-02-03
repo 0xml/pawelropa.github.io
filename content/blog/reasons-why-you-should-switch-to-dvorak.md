@@ -28,5 +28,6 @@ My opinion did not changed, if your only reason for switch is you want to type f
 
 Not wanting to hinder my work more, I took a weekend when I didn't do any contract work, memorised the keyboard layout and started to type. It turned out one weekend wasn't enough. What I have started to notice, after a week or so my wrists didn't hurt anymore which was refreshing, and at that point I knew I will not be going back. In the end it took more than a month but I regained my typing speed, now I type faster than before and with less effort.
 
-~DVORAK FOREVER!!!~
+~~DVORAK FOREVER!!!~~
+
 Unfortunatelly after playing with DVORAK for a while I must say, the switch is not worth it. There are multiple reasons, the biggest one is - all word is running on QWERTY. What this means, almost all apps, all computers are configured with this layout in mind, after a while it becomes tiresome - remapping shortcuts, configuring each application, each computer. Thus personally I would strongly advice against the switch, in fact after this long jurney I am back to QUERTY.
