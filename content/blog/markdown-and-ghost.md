@@ -1,18 +1,18 @@
 +++
 date = "2014-02-01T13:59:05+01:00"
 draft = true
-title = "markdown and ghost"
+title = "Markdown and Ghost"
 
 +++
 
-##What is markdown
+## What is markdown
 It's a plain text formating syntax, which is easy to read, optionally it can be converted to HTML.
 
-##Why use it
+## Why use it
 Because it is really easy, fast and powerfull. Without markdown one can use basically text editor and **mouse** to format text, the other option is to write text in pure HTML to format it nicely, but it's much harder (nobody really want to type those ugly tags).
 
-##Syntax
-###Headers
+## Syntax
+### Headers
 ```
 H1 header
 =========
@@ -32,14 +32,14 @@ H1 header
 =========
 H2 header
 ---------
-#H1
-##H2
-###H3
-####H4
-#####H5
-######H6
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
-###Emphasis
+### Emphasis
 ```
 Italics, with *asterisks* or _underscores_.
 
@@ -56,7 +56,7 @@ Bold, with **asterisks** or __underscores__.
 Combine bold with italics **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
-###Unordered lists
+### Unordered lists
 ```
 * Unordered list can use asterisks
 - minuses
@@ -68,7 +68,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Use whichever suits you best, personaly I like to asterisks.
 
-###Ordered Lists
+### Ordered Lists
 ```
 1. First ordered list item
 2. Another item
