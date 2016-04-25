@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>code highlighting in ghost - Pawel&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://pawelropa.github.io/post/code-highlighting-in-ghost/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="http://pawelropa.github.io/css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://pawelropa.github.io" class="site-title">Pawel&#39;s blog</a>
+      <nav class="site-nav right">
+      <a href="http://pawelropa.github.io/about/">About</a>
+<a href="http://pawelropa.github.io/tags">Tags</a>
+<a href="http://pawelropa.github.io/contact/">Contact</a>
+
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">code highlighting in ghost</h1>
+        <span class="post-meta">Jan 9, 2014 by </span><br>
+        
+      </div>
+
+      <article class="post-content">
+      
+
+<p><a href="https://ghost.org/">Ghost blogging platform</a> is great. It suits my needs almost perfectly as I don&rsquo;t need a colossal blogging platform with millions of plugins (and security vulnerabilities) like <a href="https://wordpress.com">Wordpress</a>. The posts editor is top notch, really like the preview functionality.
+For <a href="https://ghost.org/">Ghost</a> to be perfect I needed to add two main features; comments and code highlighting. This post will be about the latter.</p>
+
+<p>There are multiple choices for the javascript code which highlights syntax. I looked at <a href="http://highlightjs.org">highlightjs</a>, <a href="http://prismjs.com">prism</a> and <a href="http://alexgorbatchev.com/SyntaxHighlighter/">SyntaxHighlighter</a>. The best for my blog&rsquo;s current theme seemed <a href="http://prismjs.com">prism</a>, which I eventually used.</p>
+
+<p>Here is an example of what ruby code looks like with highlighting done by prism.</p>
+
+<pre><code>hex = [(0..9),('A'..'F')]
+hex.each { |x| x.each { |y| print y }}    # outputs, 0123456789ABCDEF
+
+# declare an array of arrays
+nums = [[0,1], [2,3,4,5,6,7], [8,9], ['A','B','C','D','E','F']]
+binary = nums[0]                         # =&gt; [0, 1]
+
+a = [0, 1, 2, 3, 4, 5]    # array of 6 elements
+b = a.map { |x| 2**x }    # =&gt; [1, 2, 4, 8, 16, 32]
+</code></pre>
+
+<h3 id="installing-prism:6f250022fee7cdd33f6557dfe0bc170e">Installing Prism</h3>
+
+<ul>
+<li><p>Go to <a href="http://prismjs.com/download.html">prism download site</a>, choose one of many themes (I personally use <em>Default</em> theme, it looks nicely with my greyish, modified version of Casper theme), select languages for which you want to add syntax highlighting (you can also add plugins i.e. line numbers).</p></li>
+
+<li><p>Download your custom made <strong>prism.js</strong> and <strong>prism.css</strong> files.</p></li>
+
+<li><p>Now you need to upload those files onto the server which hosts your blog. Great hosting site which I use and highly recommend is <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>. For upload I like to use <code>scp</code>.</p></li>
+</ul>
+
+<pre><code>$ cd /directory/where/your/prisms/files/are
+$ scp prism.js prism.css your_login@servername.com:~
+</code></pre>
+
+<ul>
+<li>Your files have been uploaded onto your server. Now you need to move them into your Ghost theme directory. Login and type.</li>
+</ul>
+
+<pre><code>$ mv prism.js /var/www/directoryghost/content/themes/casper/assets/js/
+$ mv prism.css /var/www/directoryghost/content/themes/casper/assets/css/
+</code></pre>
+
+<ul>
+<li>Now you need to edit <code>default.hbs</code> file which resides inside your default theme folder.</li>
+</ul>
+
+<pre><code>$ cd /var/www/directoryghost/content/themes/casper/
+$ nano default.hbs
+</code></pre>
+
+<ul>
+<li>Add this code <code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{{asset &quot;css/prism.css&quot;}}&quot; /&gt;</code>
+on the beginning of the file, it should look similarly to this</li>
+</ul>
+
+<pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;{{asset &quot;favicon.ico&quot;}}&quot;&gt;
+
+{{! Styles'n'Scripts }}
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{{asset &quot;css/screen.css&quot;}}&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,$
+
+// Here
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{{asset &quot;css/prism.css&quot;}}&quot; /&gt;
+
+</code></pre>
+
+<ul>
+<li>And this code <code>&lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/prism.js&quot;}}&quot;&gt;&lt;/script&gt;</code> near the end.</li>
+</ul>
+
+<pre><code>{{! The main JavaScript file for Casper }}
+&lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/jquery.fitvids.js&quot;}}&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/index.js&quot;}}&quot;&gt;&lt;/script&gt;
+
+//Here
+&lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/prism.js&quot;}}&quot;&gt;&lt;/script&gt;
+
+</code></pre>
+
+<p>Now restart Ghost. If you are using <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>, simply type <code>$ service ghost restart</code>.</p>
+
+<h3 id="testing:6f250022fee7cdd33f6557dfe0bc170e">Testing</h3>
+
+<p>Edit one of your posts and add a section at the end which looks similarly to mine (when I was creating my custom prism file, I added support for <code>javascript</code> if you hadn&rsquo;t, simply change <em>javascript</em> into some language name which your prism version supports).</p>
+
+<pre><code> \`\`\`javascript // Remove slashes
+ var x = 5;       // Declare x, give it the value of 5
+ \`\`\`           // Remove slashes
+</code></pre>
+
+<p>If you done everything right you should see something similar to this.</p>
+
+<pre><code class="language-javascript">var x = 5;      // Declare x, give it the value of 5
+</code></pre>
+
+<p>Thats it! You have done it!</p>
+
+      </article>
+
+      <p class="post-meta">Tags:&nbsp;
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="http://pawelropa.github.io/index.xml"></a>
+
+<a class="fa fa-twitter twitter" href="https://twitter.com/pawelropa"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2015<br>
+            Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="http://pawelropa.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+
+</body>
+</html>
+

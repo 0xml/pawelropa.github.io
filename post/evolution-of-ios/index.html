@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Evolution of iOS - Pawel&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://pawelropa.github.io/post/evolution-of-ios/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="http://pawelropa.github.io/css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://pawelropa.github.io" class="site-title">Pawel&#39;s blog</a>
+      <nav class="site-nav right">
+      <a href="http://pawelropa.github.io/about/">About</a>
+<a href="http://pawelropa.github.io/tags">Tags</a>
+<a href="http://pawelropa.github.io/contact/">Contact</a>
+
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Evolution of iOS</h1>
+        <span class="post-meta">Jul 12, 2014 by </span><br>
+        
+      </div>
+
+      <article class="post-content">
+      
+
+<p>It&rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.</p>
+
+<h2 id="ios-4-0:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 4.0</h2>
+
+<h3 id="multitasking:ce0ecd54b2042f4bca9d181ab2a4bb97">Multitasking</h3>
+
+<p>Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions:</p>
+
+<ul>
+<li>An application can request a finite amount of time to complete some important task.</li>
+<li>An application can declare itself as supporting specific services that require regular background execution time.</li>
+<li>An application can use local notifications to generate user alerts at designated times, whether or not the application is running.</li>
+</ul>
+
+<p>The app which is in background mode can still be terminated due to some conditions for example low memory, therefore the applications must be ready to exit at any time.</p>
+
+<h3 id="blocks:ce0ecd54b2042f4bca9d181ab2a4bb97">Blocks</h3>
+
+<p>Really great feature making source code cleaner and developer&rsquo;s live a lot easier. Block are segments of code that can be passed to methods and functions, get invoked, assigned to properties.</p>
+
+<h3 id="gcd:ce0ecd54b2042f4bca9d181ab2a4bb97">GCD</h3>
+
+<p>Thread programming is hard, no question about it, how about making a simpler alternative which is really easy to use? That&rsquo;s where GCD (Grand Central Dispatch) comes in. No more blocking of main thread, apps are now more responsive (if written right)!</p>
+
+<h3 id="local-notifications:ce0ecd54b2042f4bca9d181ab2a4bb97">Local Notifications</h3>
+
+<p>The app can issue a local notification, which will inform a user about an important event. Mostly used when the app is in the background mode.</p>
+
+<h3 id="event-kit:ce0ecd54b2042f4bca9d181ab2a4bb97">Event Kit</h3>
+
+<p>Provides an interface for accessing calendar events on a user’s device. You can use this framework to get existing events and add new events to the user’s calendar.</p>
+
+<h3 id="core-motion:ce0ecd54b2042f4bca9d181ab2a4bb97">Core Motion</h3>
+
+<p>How about getting info about iPhone state form motion-based sensors, and using it to build a game where you can manipulate a ball through rotating the device? Sounds great? You can do it with the use of Core Motion framework.</p>
+
+<h3 id="data-protection:ce0ecd54b2042f4bca9d181ab2a4bb97">Data Protection</h3>
+
+<p>Build in encryption can now be used when working with sensitive user data.
+&gt;When your application designates a particular file as protected, the system stores that file on-disk in an encrypted format. While the device is locked, the contents of the file are inaccessible to both your application and to any potential intruders. However, when the device is unlocked by the user, a decryption key is created to allow your application to access the file.</p>
+
+<blockquote>
+<p>Implementing data protection requires you to be considerate in how you create and manage the data you want to protect. Applications must themselves be designed to secure the data at creation time and to be prepared for changes in access to that data when the user locks and unlocks the device.</p>
+</blockquote>
+
+<h3 id="core-telephony:ce0ecd54b2042f4bca9d181ab2a4bb97">Core Telephony</h3>
+
+<p>This framework provides interfaces for interacting with phone-based information on devices that have a cellular radio. Apps can get information about a user’s cellular service provider and be notified when call events occur.</p>
+
+<h3 id="iad:ce0ecd54b2042f4bca9d181ab2a4bb97">iAd</h3>
+
+<p>Advertisements framework allows a developer to monetize an app in different way.
+Why would anyone spoil the app with ads?</p>
+
+<h3 id="quicklook-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">QuickLook Framework</h3>
+
+<p>The Quick Look framework for iOS, allows to preview the contents of files an app does not support directly.</p>
+
+<h3 id="av-foundation:ce0ecd54b2042f4bca9d181ab2a4bb97">AV Foundation</h3>
+
+<p>That&rsquo;s the bomb! Very powerful framework which allows developers to do a ton of crazy stuff. Playing audio, video, recording and so on. You should definitely check it out!</p>
+
+<h3 id="asset-library:ce0ecd54b2042f4bca9d181ab2a4bb97">Asset Library</h3>
+
+<p>A framework which provide interface for retrieving a user’s photos and videos. Using this framework, you can access the same assets that are managed by the Photos application.</p>
+
+<h3 id="image-i-o:ce0ecd54b2042f4bca9d181ab2a4bb97">Image I/O</h3>
+
+<p>Importing and exporting image data and image metadata.
+&gt;This framework is built on top of the Core Graphics data types and functions and supports all of the standard image types available in iOS.</p>
+
+<h3 id="core-media:ce0ecd54b2042f4bca9d181ab2a4bb97">Core Media</h3>
+
+<p>Even more powerful than AV Foundation which is build on top of it. Check it out if you are interested in more low-level stuff.</p>
+
+<h3 id="cored-video:ce0ecd54b2042f4bca9d181ab2a4bb97">Cored Video</h3>
+
+<p>Funny apple description, they make it sound as some scary black magic is going on inside this framework. More reasons to check it out!
+&gt;The Core Video framework (CoreVideo.framework) provides buffer and buffer pool support for Core Media. Most applications should never need to use this framework directly.</p>
+
+<h2 id="ios-4-1:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 4.1</h2>
+
+<h3 id="game-center:ce0ecd54b2042f4bca9d181ab2a4bb97">Game Center</h3>
+
+<p>Games becoming more social with use of this framework. User can create it&rsquo;s own profile which will be universal. Leaderboards, matchmaking and achievements mean users will gets more fun interacting with each other.</p>
+
+<h2 id="ios-4-2:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 4.2</h2>
+
+<h3 id="printing:ce0ecd54b2042f4bca9d181ab2a4bb97">Printing</h3>
+
+<p>iOS now incorporates support for wireless printing from iPhone and iPad applications.</p>
+
+<h3 id="air-play:ce0ecd54b2042f4bca9d181ab2a4bb97">Air Play</h3>
+
+<p>Audio streaming to Apple TV and to third-party AirPlay speakers and receivers.</p>
+
+<h3 id="core-midi:ce0ecd54b2042f4bca9d181ab2a4bb97">Core MIDI</h3>
+
+<p>Provides a standard way to communicate with MIDI devices, including hardware keyboards and synthesisers.</p>
+
+<h3 id="weak-linking-support:ce0ecd54b2042f4bca9d181ab2a4bb97">Weak Linking Support</h3>
+
+<p>System frameworks now tag their classes with availability information that the compiler can use to link weakly to those classes as needed. It is easer to check if the class is available at the runtime. Previously, you needed to use the NSClassFromString function to determine whether a class was present, now you can simply check for the existence the class directly with the use of <em>class</em> method. Generally speaking these feature makes life easier.</p>
+
+<h2 id="ios-4-3:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 4.3</h2>
+
+<h3 id="air-play-video-support:ce0ecd54b2042f4bca9d181ab2a4bb97">Air Play Video Support</h3>
+
+<p>Previous version added support for audio streaming, this allows streaming of video.</p>
+
+<h2 id="ios-5-0:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 5.0</h2>
+
+<h3 id="icloud-storage:ce0ecd54b2042f4bca9d181ab2a4bb97">iCloud Storage</h3>
+
+<p>Really great feature build for easy access of your data by the NSA in mind. You will have an option to store all your data in a central location, where Apple will keep it &lsquo;secure&rsquo;. Complete erosion of privacy&hellip; nah just kidding (or am I?).</p>
+
+<h3 id="icloud-backup:ce0ecd54b2042f4bca9d181ab2a4bb97">iCloud Backup</h3>
+
+<p>Easier restoration of apps through cloud backup, space is limited so send <strong>only</strong> the most important ones&hellip;</p>
+
+<h3 id="automatic-reference-counting:ce0ecd54b2042f4bca9d181ab2a4bb97">Automatic Reference Counting</h3>
+
+<p>Memory management in Objective-C is based on retain count of objects, if retain count is greater than zero object resides in memory, when it gets down to zero the object gets dealloceted. It was developer responsibility to manage the retain count, with the introduction of ARC it is compiler responsibility.</p>
+
+<h3 id="storyboard:ce0ecd54b2042f4bca9d181ab2a4bb97">Storyboard</h3>
+
+<p>Previously if you didn&rsquo;t wanted create the controllers views programatically you could do it using nib files. Each controller had its own nib, storyboard captures your entire user interface in one place.</p>
+
+<h3 id="newsstand-support:ce0ecd54b2042f4bca9d181ab2a4bb97">Newsstand Support</h3>
+
+<p>Newsstand provides a central place for users to read magazines and newspapers.</p>
+
+<h3 id="new-frameworks:ce0ecd54b2042f4bca9d181ab2a4bb97">New Frameworks</h3>
+
+<h4 id="glkit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">GLKit Framework</h4>
+
+<p>Utility classes that simplify the effort required to create an OpenGL ES 2.0 app.</p>
+
+<h4 id="core-image-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Core Image Framework</h4>
+
+<p>Really fast way to apply filters to images and video, uses CPU and GPU processing power. Really powerful.</p>
+
+<h4 id="twitter-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Twitter Framework</h4>
+
+<p>Provides support for sending Twitter requests on behalf of the user and for composing and sending tweets. For requests, the framework handles the user authentication part of the request for you and provides a template for creating the HTTP portion of the request.</p>
+
+<h4 id="accounts-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Accounts Framework</h4>
+
+<p>Provides system wide sign-on model for certain user accounts. Single sign-on improves the user experience, because apps no longer need to prompt a user separately for login information related to an account.</p>
+
+<h4 id="generic-security-services-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Generic Security Services Framework</h4>
+
+<p>Security related services to iOS apps. Very little info about this one in Apple&rsquo;s developer library, <a href="http://www.ietf.org/rfc/rfc2743.txt">rfc-2743</a>, <a href="http://tools.ietf.org/html/rfc4401">rfc-4401</a></p>
+
+<h4 id="core-bluetooth:ce0ecd54b2042f4bca9d181ab2a4bb97">Core Bluetooth</h4>
+
+<p>Framework allows developers to interact specifically with Bluetooth accessories.</p>
+
+<h2 id="ios-5-1:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 5.1</h2>
+
+<h3 id="dictation-support:ce0ecd54b2042f4bca9d181ab2a4bb97">Dictation support</h3>
+
+<blockquote>
+<p>On supported devices, iOS automatically inserts recognised phrases into the current text view when the user has chosen dictation input. The new UIDictationPhrase class (declared in UITextInput.h) provides you with a string representing a phrase that a user has dictated. In the case of ambiguous dictation results, the new class provides an array containing alternative strings. New methods in the UITextInput protocol allow your app to respond to the completion of dictation.</p>
+</blockquote>
+
+<h2 id="ios-6-0:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 6.0</h2>
+
+<h3 id="maps:ce0ecd54b2042f4bca9d181ab2a4bb97">Maps</h3>
+
+<p>Apple introduces it&rsquo;s own Map framework to challenge Google.Apps that do not incorporate their own map support now have an easier way to launch the Maps app and display points of interest or directions.</p>
+
+<h3 id="social-frameworks:ce0ecd54b2042f4bca9d181ab2a4bb97">Social Frameworks</h3>
+
+<p>Ever tired of having separate frameworks for Twitter, Facebook or Sina&rsquo;s Weibo?  Managing their versions and keeping everything up to date? Apple response is a framework which unifies all those services.</p>
+
+<h3 id="pass-kit:ce0ecd54b2042f4bca9d181ab2a4bb97">Pass Kit</h3>
+
+<blockquote>
+<p>Pass Kit is a new technology that uses web services, a new file format, and an Objective-C framework (PassKit.framework) to implement support for downloadable passes. Companies can create passes to represent items such as coupons, boarding passes, event tickets, and discount cards for businesses. Instead of carrying a physical representation of these items, users can now store them on their iOS device and use them the same way as before.</p>
+</blockquote>
+
+<h3 id="reminders:ce0ecd54b2042f4bca9d181ab2a4bb97">Reminders</h3>
+
+<p>In previous version Event Kit allowed creation, deletion - general management of calendar events. Since iOS6 it will allow to use reminders.</p>
+
+<h3 id="in-app-purchases:ce0ecd54b2042f4bca9d181ab2a4bb97">In-App Purchases</h3>
+
+<p>Introduction of freemium model and slow death of paid apps. User can now purchase additional content inside the app.</p>
+
+<h3 id="collection-views:ce0ecd54b2042f4bca9d181ab2a4bb97">Collection Views</h3>
+
+<p>Really great addition, it&rsquo;s worth to set deployment target to iOS6 (not iOS5) solely for this collection views. Easy way to create more robust user interface.</p>
+
+<h3 id="ui-state-preservation:ce0ecd54b2042f4bca9d181ab2a4bb97">UI State Preservation</h3>
+
+<p>Even when an app gets terminated by the operating system, its now possible to restore user interface to the state when it was last used.</p>
+
+<h3 id="auto-layout:ce0ecd54b2042f4bca9d181ab2a4bb97">Auto Layout</h3>
+
+<p>More robust system than previously used &ldquo;springs and struts&rdquo; for laying out user interface elements.</p>
+
+<h3 id="data-privacy:ce0ecd54b2042f4bca9d181ab2a4bb97">Data Privacy</h3>
+
+<p>In addition to location data, the system now asks the user’s permission before allowing third-party apps to access certain user data, including:</p>
+
+<ul>
+<li>Contacts</li>
+<li>Calendars</li>
+<li>Reminders</li>
+<li>Photo Library</li>
+</ul>
+
+<h2 id="ios-6-1:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 6.1</h2>
+
+<h3 id="map-kit-searches:ce0ecd54b2042f4bca9d181ab2a4bb97">Map Kit Searches</h3>
+
+<p>Developer is able to programmatically search for map-based addresses and points of interest.</p>
+
+<h2 id="ios-7-0:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 7.0</h2>
+
+<h3 id="user-interface-changes:ce0ecd54b2042f4bca9d181ab2a4bb97">User Interface Changes</h3>
+
+<h4 id="ui-redesign:ce0ecd54b2042f4bca9d181ab2a4bb97">UI Redesign</h4>
+
+<p>The iOS 7 user interface has been completely redesigned.Newly introduced flat design focuses on functionality and on the user’s content informs every aspect of design.</p>
+
+<h4 id="dynamic-behaviours-for-views:ce0ecd54b2042f4bca9d181ab2a4bb97">Dynamic Behaviours for Views</h4>
+
+<p>Introduction of physics based animation engine into iOS, more possibilities for creating crazy looking animations.</p>
+
+<h4 id="text-kit:ce0ecd54b2042f4bca9d181ab2a4bb97">Text Kit</h4>
+
+<p>New version of iOS focuses more on content, Text Kit framework allows better management of text and typography.</p>
+
+<h3 id="64-bit-support:ce0ecd54b2042f4bca9d181ab2a4bb97">64-Bit Support</h3>
+
+<p>When compiled for the 64-bit runtime, apps may run faster because of the availability of extra processor resources in 64-bit mode, they will also use more memory.</p>
+
+<h3 id="multitasking-enhancements:ce0ecd54b2042f4bca9d181ab2a4bb97">Multitasking Enhancements</h3>
+
+<p>Apps can now fetch new content, after receiving silent push notification from a server. When fetching is complete, it can inform user about new podcast, tv show, podcast - all process done without user interaction.</p>
+
+<h3 id="games:ce0ecd54b2042f4bca9d181ab2a4bb97">Games</h3>
+
+<h4 id="sprite-kit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Sprite Kit Framework</h4>
+
+<p>Games are big on App Store, till now there has been no Apple frameworks for creating them, only open source like <a href="http://cocos2d.org">cocos2d</a>.
+In fact if you know cocos2d you will adapt the Sprite Kit very quickly.</p>
+
+<h4 id="game-controller-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Game Controller Framework</h4>
+
+<p>This framework standardises the use of third party game controller hardware.
+&gt;Game controllers can be devices connected physically to an iOS device or connected wirelessly over Bluetooth. The Game Controller framework notifies your app when controllers become available and lets you specify which controller inputs are relevant to your app.</p>
+
+<h4 id="game-center-improvements:ce0ecd54b2042f4bca9d181ab2a4bb97">Game Center Improvements</h4>
+
+<p>Exchanges which lets you create simultaneous turns, player chats, increased size of leaderboards or conditions in challenges.</p>
+
+<h3 id="airdrop:ce0ecd54b2042f4bca9d181ab2a4bb97">AirDrop</h3>
+
+<p>Sharing photos, document, URLs and other kinds of data with nearby iPhones, iPads or Macs.</p>
+
+<h3 id="inter-app-audio:ce0ecd54b2042f4bca9d181ab2a4bb97">Inter-App Audio</h3>
+
+<blockquote>
+<p>The Audio Unit framework (AudioUnit.framework) adds support for Inter-App Audio, which enables the ability to send MIDI commands and stream audio between apps on the same device. For example, you might use this feature to record music from an app acting as an instrument or use it to send audio to another app for processing. To vend your app’s audio data, publish a I/O audio unit (AURemoteIO) that is visible to other processes. To use audio features from another app, use the audio component discovery interfaces in iOS 7.</p>
+</blockquote>
+
+<h3 id="peer-to-peer-connectivity:ce0ecd54b2042f4bca9d181ab2a4bb97">Peer-to-Peer Connectivity</h3>
+
+<p>Framework for network peer-to-peer interaction between devices.</p>
+
+<h2 id="ios-7-1:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 7.1</h2>
+
+<h3 id="support-for-external-media-players:ce0ecd54b2042f4bca9d181ab2a4bb97">Support for External Media Players</h3>
+
+<blockquote>
+<p>Apps can now receive and respond to events sent by an external media player. This process lets users interact solely with the external media player, removing the need to interact directly with an iOS device.</p>
+</blockquote>
+
+<h3 id="opengl-es:ce0ecd54b2042f4bca9d181ab2a4bb97">OpenGL ES</h3>
+
+<p>Multithreading support added to OpenGL ES.</p>
+
+<h2 id="ios-8-0:ce0ecd54b2042f4bca9d181ab2a4bb97">iOS 8.0</h2>
+
+<h3 id="swift:ce0ecd54b2042f4bca9d181ab2a4bb97">Swift</h3>
+
+<p>Introduction of new language called Swift, which is designed to be as productive as Ruby and as fast as Ansi C, Objective-C and C++. There are many features which will make this language great</p>
+
+<ul>
+<li>Clean syntax</li>
+<li>No headers and semicolons</li>
+<li>Multiple return values</li>
+<li>Generics</li>
+<li>Closures and much much more.</li>
+</ul>
+
+<h3 id="app-extensions:ce0ecd54b2042f4bca9d181ab2a4bb97">App Extensions</h3>
+
+<p>Extensions allows custom functionality within a context of a user task. For example if user plays with Apple&rsquo;s photos app and want to share cool picture by your social app called Momo he simply can do it by an extension which you provided from photos app. No need to go to Momo specifically import image and than share it!</p>
+
+<h3 id="touch-id-authentication:ce0ecd54b2042f4bca9d181ab2a4bb97">Touch ID Authentication</h3>
+
+<p>More secure access to content inside an app, you can require a user to authenticated before proceeding.</p>
+
+<h3 id="photos:ce0ecd54b2042f4bca9d181ab2a4bb97">Photos</h3>
+
+<h4 id="photos-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Photos Framework</h4>
+
+<p>Provides new APIs for working with photo and video assets, including iCloud Photos assets, that are managed by the Photos app. This framework is a more capable alternative to the Assets Library framework.</p>
+
+<h4 id="manual-camera-controls:ce0ecd54b2042f4bca9d181ab2a4bb97">Manual Camera Controls</h4>
+
+<p>Long awaited feature, AV Foundation now allows for direct control of the camera focus, white balance and exposure settings!</p>
+
+<h3 id="games-1:ce0ecd54b2042f4bca9d181ab2a4bb97">Games</h3>
+
+<p>Technology improvements in iOS 8 make it easier than ever to implement your game’s graphics and audio features. Some of the new additions are Metal (access to high performance A7 GPU), improvements in Scene Kit and Sprite Kit.</p>
+
+<h3 id="health-kit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Health Kit Framework</h3>
+
+<blockquote>
+<p>Health Kit makes it easy for apps to share health-related information, whether that information comes from devices connected to an iOS device or is entered manually by the user. The user’s health information is stored in a centralised and secure location. The user can then see all of that data displayed in the Health app.</p>
+</blockquote>
+
+<h3 id="home-kit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97">Home Kit Framework</h3>
+
+<p>Framework for communicating with devices in a user&rsquo;s home. Easy way to discover devices and configure them.</p>
+
+<h3 id="icloud:ce0ecd54b2042f4bca9d181ab2a4bb97">iCloud</h3>
+
+<h4 id="document-related-data-migration:ce0ecd54b2042f4bca9d181ab2a4bb97">Document-Related Data Migration</h4>
+
+<p>When users logs in to iCloud through device running iOS8 all the documents get migrated to a new version of the app&rsquo;s container directory. Devices running older operating systems will continue to have access to the original container, but changes made in that container will not appear in the new container and vice versa.</p>
+
+<h4 id="cloud-kit:ce0ecd54b2042f4bca9d181ab2a4bb97">Cloud Kit</h4>
+
+<p>New great way to store users data without the need to setting up your own server, you have access to 1PB of disc space for free. Cloud Kit gives you control over when transfers occur. You can use Cloud Kit to manage all types of data.</p>
+
+<h4 id="document-picker:ce0ecd54b2042f4bca9d181ab2a4bb97">Document Picker</h4>
+
+<blockquote>
+<p>The document picker view controller grants users access to files outside your application’s sandbox. It is a simple mechanism for sharing documents between apps. It also enables more complex workflows, because users can edit a single document with multiple apps.</p>
+</blockquote>
+
+<h3 id="handoff:ce0ecd54b2042f4bca9d181ab2a4bb97">Handoff</h3>
+
+<p>Handoff enables users to begin an activity on one device, then switch to another device and resume the same activity on the other device. For example, a user who is writing a document moves to an iOS device that&rsquo;s signed into the same Apple ID, and the same document automatically opens on iOS.</p>
+
+<h3 id="unified-storyboards-for-universal-apps:ce0ecd54b2042f4bca9d181ab2a4bb97">Unified Storyboards for Universal Apps</h3>
+
+<p>One storyboard to rule them all, you no longer need to use separate storyboards for iPhone and iPad, also with adaptive controllers writing multi device apps will be easier than before.</p>
+
+<p>There you have it, general evolution of iOS since version 4.0 to 8.0. Guys at Apple are working hard and I love how the iOS keeps getting better and better. I can&rsquo;t wait to see what the next version will bring!</p>
+
+      </article>
+
+      <p class="post-meta">Tags:&nbsp;
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="http://pawelropa.github.io/index.xml"></a>
+
+<a class="fa fa-twitter twitter" href="https://twitter.com/pawelropa"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2015<br>
+            Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="http://pawelropa.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+
+</body>
+</html>
+

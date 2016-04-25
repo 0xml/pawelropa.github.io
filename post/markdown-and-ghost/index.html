@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Markdown and Ghost - Pawel&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="http://pawelropa.github.io/post/markdown-and-ghost/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="http://pawelropa.github.io/css/combined-min.css">
+
+</head>
+<body class="">
+
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://pawelropa.github.io" class="site-title">Pawel&#39;s blog</a>
+      <nav class="site-nav right">
+      <a href="http://pawelropa.github.io/about/">About</a>
+<a href="http://pawelropa.github.io/tags">Tags</a>
+<a href="http://pawelropa.github.io/contact/">Contact</a>
+
+</form>
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">Markdown and Ghost</h1>
+        <span class="post-meta">Feb 1, 2014 by </span><br>
+        
+      </div>
+
+      <article class="post-content">
+      
+
+<h2 id="what-is-markdown:239730413a294903136e54d1dbf6d9d1">What is markdown</h2>
+
+<p>It&rsquo;s a plain text formating syntax, which is easy to read, optionally it can be converted to HTML.</p>
+
+<h2 id="why-use-it:239730413a294903136e54d1dbf6d9d1">Why use it</h2>
+
+<p>Because it is really easy, fast and powerfull. Without markdown one can use basically text editor and <strong>mouse</strong> to format text, the other option is to write text in pure HTML to format it nicely, but it&rsquo;s much harder (nobody really want to type those ugly tags).</p>
+
+<h2 id="syntax:239730413a294903136e54d1dbf6d9d1">Syntax</h2>
+
+<h3 id="headers:239730413a294903136e54d1dbf6d9d1">Headers</h3>
+
+<pre><code>H1 header
+=========
+H2 header
+---------
+
+or as a alternative
+#H1
+##H2
+###H3
+####H4
+#####H5
+######H6
+
+</code></pre>
+
+<h1 id="h1-header:239730413a294903136e54d1dbf6d9d1">H1 header</h1>
+
+<h2 id="h2-header:239730413a294903136e54d1dbf6d9d1">H2 header</h2>
+
+<h1 id="h1:239730413a294903136e54d1dbf6d9d1">H1</h1>
+
+<h2 id="h2:239730413a294903136e54d1dbf6d9d1">H2</h2>
+
+<h3 id="h3:239730413a294903136e54d1dbf6d9d1">H3</h3>
+
+<h4 id="h4:239730413a294903136e54d1dbf6d9d1">H4</h4>
+
+<h5 id="h5:239730413a294903136e54d1dbf6d9d1">H5</h5>
+
+<h6 id="h6:239730413a294903136e54d1dbf6d9d1">H6</h6>
+
+<h3 id="emphasis:239730413a294903136e54d1dbf6d9d1">Emphasis</h3>
+
+<pre><code>Italics, with *asterisks* or _underscores_.
+
+Bold, with **asterisks** or __underscores__.
+
+Combine bold with italics **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+</code></pre>
+
+<p>Italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+
+<p>Bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+
+<p>Combine bold with italics <strong>asterisks and <em>underscores</em></strong>.</p>
+
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+
+<h3 id="unordered-lists:239730413a294903136e54d1dbf6d9d1">Unordered lists</h3>
+
+<pre><code>* Unordered list can use asterisks
+- minuses
++ or pluses
+</code></pre>
+
+<ul>
+<li>Unordered list can use asterisks</li>
+<li>minuses</li>
+<li>or pluses</li>
+</ul>
+
+<p>Use whichever suits you best, personaly I like to asterisks.</p>
+
+<h3 id="ordered-lists:239730413a294903136e54d1dbf6d9d1">Ordered Lists</h3>
+
+<pre><code>1. First ordered list item
+2. Another item
+ * Unordered sub-list.
+1. Actual numbers don't matter, just that it's a number
+ 1. Ordered sub-list
+ 4. And another item.
+  Paragraphs within list items, just start with the leading space
+
+  To have a line break without a paragraph, you will need to use two trailing spaces.  
+  Note that this line is separate, but within the same paragraph.  
+</code></pre>
+
+<h3 id="links:239730413a294903136e54d1dbf6d9d1">Links</h3>
+
+<pre><code>[click github](https://www.github.com)
+[click github](https://www.github.com &quot;Github's Homepage Hint&quot;)
+</code></pre>
+
+<p><a href="https://www.github.com">click github</a></p>
+
+<p><a href="https://www.github.com" title="Github's Homepage Hint">click github with hint</a></p>
+
+<h3 id="images:239730413a294903136e54d1dbf6d9d1">Images</h3>
+
+<pre><code>Inline-style:
+![alt text](https://ghost.org/assets/logos-d976c73a12a1a34a3db6be321db81f71.png &quot;Logo Title Text 1&quot;)
+
+Reference-style:
+![alt text][logo]
+
+
+</code></pre>
+
+<h3 id="code-and-syntax-highlighting:239730413a294903136e54d1dbf6d9d1">Code and Syntax Highlighting</h3>
+
+<p>Code blocks are part of the Markdown spec, but syntax highlighting isn&rsquo;t. To add highlighting into ghost read <a href="http://blog.davebalmer.com/adding-syntax-highlighting-to-ghost/" title="Add highlighting to Ghost blog">in this blog post</a></p>
+
+<h3 id="tables:239730413a294903136e54d1dbf6d9d1">Tables</h3>
+
+<p>At the moment Ghost does not support tables. Hopefully it will in the near future.</p>
+
+<h3 id="blockquotes:239730413a294903136e54d1dbf6d9d1">Blockquotes</h3>
+
+<pre><code>&gt; Blockquotes are very handy in email to emulate reply text.
+&gt; This line is part of the same quote.
+
+Quote break.
+
+&gt; This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+</code></pre>
+
+<blockquote>
+<p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</blockquote>
+
+<p>Quote break.</p>
+
+<blockquote>
+<p>This is a very long line that will still be quoted properly when it wraps. Oh boy let&rsquo;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+
+<h3 id="horizontal-rule:239730413a294903136e54d1dbf6d9d1">Horizontal Rule</h3>
+</blockquote>
+
+<h3 id="inline-html:239730413a294903136e54d1dbf6d9d1">Inline HTML</h3>
+
+<p>Using HTML is very simple in markdown</p>
+
+<pre><code>&lt;ul&gt;
+ &lt;li&gt;Item 1&lt;/li&gt;
+ &lt;li&gt;Item 2&lt;/li&gt;
+ &lt;/ul&gt;
+</code></pre>
+
+<ul>
+ <li>Item 1</li>
+ <li>Item 2</li>
+</ul>
+
+<h3 id="line-breaks:239730413a294903136e54d1dbf6d9d1">Line Breaks</h3>
+
+<p>To manipulate line breaks use <em>space</em> and <em>Enter</em></p>
+
+<pre><code>Lorem ipsum dolor sit amet enim. Etiam ullamcorper.
+
+Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+Curabitur et ligula. Ut molestie a, ultricies porta urna.
+
+Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et
+</code></pre>
+
+<p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</p>
+
+<p>Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
+
+<p>Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non, consectetuer lobortis quis, varius in, purus. Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et</p>
+
+      </article>
+
+      <p class="post-meta">Tags:&nbsp;
+        
+      </p>
+
+      
+
+    </div>
+  </div>
+</div>
+    <footer class="footer">
+      <div class="p2 wrap">
+        <div class="measure mt1 center">
+      <nav class="social-icons icons">
+<a class="fa fa-rss rss" href="http://pawelropa.github.io/index.xml"></a>
+
+<a class="fa fa-twitter twitter" href="https://twitter.com/pawelropa"></a>
+
+</nav>
+
+          <small>
+            Copyright &#169; 2015<br>
+            Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="http://pawelropa.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+
+</body>
+</html>
+
