@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Pawel&#39;s blog</title>
-    <link>http://pawelropa.github.io/post/</link>
-    <description>Recent content in Posts on Pawel&#39;s blog</description>
+    <title>Posts on </title>
+    <link>https://pawelropa.github.io/post/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Tue, 14 Oct 2014 14:01:02 +0100</lastBuildDate>
-    <atom:link href="http://pawelropa.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pawelropa.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>superhuman by habit</title>
-      <link>http://pawelropa.github.io/post/superhuman-by-habit/</link>
+      <link>https://pawelropa.github.io/post/superhuman-by-habit/</link>
       <pubDate>Tue, 14 Oct 2014 14:01:02 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/superhuman-by-habit/</guid>
+      <guid>https://pawelropa.github.io/post/superhuman-by-habit/</guid>
       <description>&lt;p&gt;Good habits are essential to every productive person, I have been working on them very hard for over a year now. During this time I have read a few books on this topic, recently &lt;a href=&#34;http://www.amazon.com/Willpower-Instinct-Self-Control-Works-Matters/dp/1583335080&#34;&gt;The Willpower Instinct by Kelly McGonigal Ph.D&lt;/a&gt;. Today I would like to talk about &lt;a href=&#34;tynan.com&#34;&gt;Tynan&amp;rsquo;s&lt;/a&gt; new book namely &lt;a href=&#34;http://www.amazon.com/Superhuman-Habit-Becoming-Possible-Yourself-ebook/dp/B00NGC8I9E&#34;&gt;Superhuman by Habit&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The book is segmented into two main parts - building habits and choosing them. It&amp;rsquo;s quite condensed, a good reader could finish entire book in one go, which I really like and it does not contain all the unnecessary fillers which are pretty common in other publications. Let&amp;rsquo;s face it an average person does not need to know which enzyme is important for building habits or a ton of research which a claim is backed by. I mean, it is good to know this but it is not essential. In my opinion it is used to establish credibility, Tynan does not need that, I mean look at the number of blog posts he has written over the years, not to mention a few books, his projects like &lt;a href=&#34;sett.com&#34;&gt;Sett&lt;/a&gt; and others, clearly he has some good habits which make him quite productive person.&lt;/p&gt;
@@ -36,10 +35,10 @@ Specifically you would like to develop exercise habit, put your workout cloths v
     
     <item>
       <title>reasons why you should switch to dvorak</title>
-      <link>http://pawelropa.github.io/post/reasons-why-you-should-switch-to-dvorak/</link>
+      <link>https://pawelropa.github.io/post/reasons-why-you-should-switch-to-dvorak/</link>
       <pubDate>Sun, 14 Sep 2014 14:00:29 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/reasons-why-you-should-switch-to-dvorak/</guid>
+      <guid>https://pawelropa.github.io/post/reasons-why-you-should-switch-to-dvorak/</guid>
       <description>&lt;p&gt;Laptop is the most important device for many people around the world. Every software developer, like me, spends countless hours typing, thus one may argue keyboard is one of essential interfaces through which we interact with computer.&lt;/p&gt;
 
 &lt;p&gt;Being fanatic of productivity makes me think very often about optimisations which can be applied to my live, productivity hacks but also about my health. Being healthy, staying in good shape makes me feel fantastic and thus happy, which is of crucial importance to producing great work. Ok, but how it is related to DVORAK?&lt;/p&gt;
@@ -73,10 +72,10 @@ Eventually the pain escalated and typing even six hours a day made my hands hurt
     
     <item>
       <title>Evolution of iOS</title>
-      <link>http://pawelropa.github.io/post/evolution-of-ios/</link>
+      <link>https://pawelropa.github.io/post/evolution-of-ios/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/evolution-of-ios/</guid>
+      <guid>https://pawelropa.github.io/post/evolution-of-ios/</guid>
       <description>
 
 &lt;p&gt;It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.&lt;/p&gt;
@@ -440,10 +439,10 @@ In fact if you know cocos2d you will adapt the Sprite Kit very quickly.&lt;/p&gt
     
     <item>
       <title>Morning routine</title>
-      <link>http://pawelropa.github.io/post/morning-routine/</link>
+      <link>https://pawelropa.github.io/post/morning-routine/</link>
       <pubDate>Sat, 14 Jun 2014 13:59:31 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/morning-routine/</guid>
+      <guid>https://pawelropa.github.io/post/morning-routine/</guid>
       <description>
 
 &lt;p&gt;Getting a proper start on the morning is crucial to achieve high productivity during the rest of a day. It helps you to get into the right mindset.
@@ -478,10 +477,10 @@ I will repeat myself &lt;em&gt;have everything prepared&lt;/em&gt;, it will real
     
     <item>
       <title>Markdown and Ghost</title>
-      <link>http://pawelropa.github.io/post/markdown-and-ghost/</link>
+      <link>https://pawelropa.github.io/post/markdown-and-ghost/</link>
       <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/markdown-and-ghost/</guid>
+      <guid>https://pawelropa.github.io/post/markdown-and-ghost/</guid>
       <description>
 
 &lt;h2 id=&#34;what-is-markdown&#34;&gt;What is markdown&lt;/h2&gt;
@@ -665,10 +664,10 @@ Curabitur et ligula. Ut molestie a, ultricies porta urna.&lt;/p&gt;
     
     <item>
       <title>code highlighting in ghost</title>
-      <link>http://pawelropa.github.io/post/code-highlighting-in-ghost/</link>
+      <link>https://pawelropa.github.io/post/code-highlighting-in-ghost/</link>
       <pubDate>Thu, 09 Jan 2014 13:58:32 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/code-highlighting-in-ghost/</guid>
+      <guid>https://pawelropa.github.io/post/code-highlighting-in-ghost/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://ghost.org/&#34;&gt;Ghost blogging platform&lt;/a&gt; is great. It suits my needs almost perfectly as I don&amp;rsquo;t need a colossal blogging platform with millions of plugins (and security vulnerabilities) like &lt;a href=&#34;https://wordpress.com&#34;&gt;Wordpress&lt;/a&gt;. The posts editor is top notch, really like the preview functionality.
@@ -774,10 +773,10 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
     
     <item>
       <title>work more</title>
-      <link>http://pawelropa.github.io/post/work-more/</link>
+      <link>https://pawelropa.github.io/post/work-more/</link>
       <pubDate>Sun, 05 Jan 2014 13:57:50 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/work-more/</guid>
+      <guid>https://pawelropa.github.io/post/work-more/</guid>
       <description>&lt;p&gt;##Love work&lt;/p&gt;
 
 &lt;p&gt;Few days back I have read terrific post about work by &lt;a href=&#34;http://tynan.com/lovework&#34;&gt;Tynan&lt;/a&gt;. One of comments contained a link to an article about Mr Thomas Edison, more specific an &lt;a href=&#34;https://mises.org/daily/4986&#34;&gt;interview&lt;/a&gt; with him. I clicked the link and started reading. To my surprise I&amp;rsquo;ve read Edison&amp;rsquo;s answer to one of the question&lt;/p&gt;
@@ -804,10 +803,10 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
     
     <item>
       <title>remote office not required</title>
-      <link>http://pawelropa.github.io/post/remote-office-not-required/</link>
+      <link>https://pawelropa.github.io/post/remote-office-not-required/</link>
       <pubDate>Sat, 21 Dec 2013 20:50:33 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/remote-office-not-required/</guid>
+      <guid>https://pawelropa.github.io/post/remote-office-not-required/</guid>
       <description>&lt;p&gt;Today I have read for the second time terrific book &lt;a href=&#34;http://bit.ly/17YJc1C&#34;&gt;Remote by Jason Fried &amp;amp; David Heinemeier Hansson&lt;/a&gt;. I feel like the book deserves a review so I will write a little summary of each chapter.&lt;/p&gt;
 
 &lt;p&gt;####The Time is Right For Remote Work&lt;/p&gt;
@@ -914,10 +913,10 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
     
     <item>
       <title>appcode vs xcode</title>
-      <link>http://pawelropa.github.io/post/appcode-vs-xcode/</link>
+      <link>https://pawelropa.github.io/post/appcode-vs-xcode/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/appcode-vs-xcode/</guid>
+      <guid>https://pawelropa.github.io/post/appcode-vs-xcode/</guid>
       <description>&lt;p&gt;App Code&lt;/p&gt;
 
 &lt;p&gt;I have bought &lt;a href=&#34;http://www.jetbrains.com/objc/&#34;&gt;AppCode&lt;/a&gt; about 8 months ago and have been using it sence then. It has a lot of features (especially in version 2.5.x JetBrains guys added some crazy ones). Currently some of the main ones are.&lt;/p&gt;
@@ -972,10 +971,10 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
     
     <item>
       <title>The Fountainhead - Ayn Rand</title>
-      <link>http://pawelropa.github.io/post/the-fountainhead-ayn-rand/</link>
+      <link>https://pawelropa.github.io/post/the-fountainhead-ayn-rand/</link>
       <pubDate>Sun, 13 Oct 2013 20:19:40 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/the-fountainhead-ayn-rand/</guid>
+      <guid>https://pawelropa.github.io/post/the-fountainhead-ayn-rand/</guid>
       <description>&lt;p&gt;There are thousands, maybe even millions of books already written. They contain all human knowledge, however many of them aren’t worth reading, meaning our time on planet Earth is limited, thus one should read only books which worth is greatest. Some books have the power to change your life for better. Those are hard to find, especially because every one of us has different criteria of what better is. For some, better life means good relationships with others, for others it can be having more money, more challenges in live, possibility of pursuing ones dreams and visions. The list can go on and on. Looking from entrepreneur perspective, great masterpiece of Ayn Rand, &lt;em&gt;The Fountainhead&lt;/em&gt; deserves to be noticed.&lt;/p&gt;
 
 &lt;p&gt;The novel is of considerable length, over seven hundreds pages, full of wisdom and rich in philosophy of Ayn Rand – Objectivsm. I encourage you to read the book from cover to cover – it’s worth it. Main character’s name is Howard Roark. He is a recently expelled student who wants to be an architect. Main reason of his expulsion is constant refusal of philosophy which majority of architects believe in. He want to create modern buildings where every part is essential for the whole structure, there can’t be unnecessary parts. Company of architects wish to build big blobs of mixed styles. The more parts taken from as many different styles the better, no logic, no design. Organization standard is &lt;em&gt;don’t use your brain, don’t try to think, just copy someone else building&lt;/em&gt;. Howard refuse to work like that, he is a man who doesn’t consider their opinions of established standards for buildings, and thus the story begins.&lt;/p&gt;
@@ -998,10 +997,10 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
     
     <item>
       <title>Slight Edge - Jeff Olson</title>
-      <link>http://pawelropa.github.io/post/slight-edge-jeff-olson/</link>
+      <link>https://pawelropa.github.io/post/slight-edge-jeff-olson/</link>
       <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/slight-edge-jeff-olson/</guid>
+      <guid>https://pawelropa.github.io/post/slight-edge-jeff-olson/</guid>
       <description>&lt;p&gt;Today&amp;rsquo;s short post will be about another great book namely &lt;em&gt;Slight Edge&lt;/em&gt; by Jeff Olson.&lt;/p&gt;
 
 &lt;p&gt;If I had to sum up the whole book in one sentance it would be - every day routine matters greatly.&lt;/p&gt;
@@ -1014,10 +1013,10 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
     
     <item>
       <title>becoming a minimalist</title>
-      <link>http://pawelropa.github.io/post/becoming-a-minimalist/</link>
+      <link>https://pawelropa.github.io/post/becoming-a-minimalist/</link>
       <pubDate>Tue, 03 Sep 2013 19:58:52 +0100</pubDate>
       
-      <guid>http://pawelropa.github.io/post/becoming-a-minimalist/</guid>
+      <guid>https://pawelropa.github.io/post/becoming-a-minimalist/</guid>
       <description>&lt;p&gt;Since last year I have been reading &lt;a href=&#34;http://www.theminimalists.com/&#34;&gt;the minimalists blog&lt;/a&gt;. At first the idea of minimalism seemed silly to me, why would anybody willingly give up stuff, after all majority of people work so hard to get this new TV, or dress or whatever it is. The concept intrigued me.&lt;/p&gt;
 
 &lt;p&gt;Last month doing my daily routine, reading &lt;a href=&#34;http://news.ycommbinator.com&#34;&gt;hacker news&lt;/a&gt; I have encountered a blog post &lt;a href=&#34;http://levels.io/bootstrapping-startup-thailand/&#34;&gt;startup in Thailand&lt;/a&gt;. Cool story, I liked it so much that I have read this guy whole blog. Peter (that is his name) is also a minimalist, this was the drop that spilled the cup.&lt;/p&gt;
