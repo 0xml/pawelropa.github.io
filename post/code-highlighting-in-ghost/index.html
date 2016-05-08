@@ -125,15 +125,17 @@ a = [0, 1, 2, 3, 4, 5]    # array of 6 elements
 b = a.map { |x| 2**x }    # =&gt; [1, 2, 4, 8, 16, 32]
 </code></pre>
 
-<h3 id="installing-prism:6f250022fee7cdd33f6557dfe0bc170e">Installing Prism</h3>
+<h3 id="installing-prism">Installing Prism</h3>
 
 <ul>
-<li><p>Go to <a href="http://prismjs.com/download.html">prism download site</a>, choose one of many themes (I personally use <em>Default</em> theme, it looks nicely with my greyish, modified version of Casper theme), select languages for which you want to add syntax highlighting (you can also add plugins i.e. line numbers).</p></li>
+<li>Go to <a href="http://prismjs.com/download.html">prism download site</a>, choose one of many themes (I personally use <em>Default</em> theme, it looks nicely with my greyish, modified version of Casper theme), select languages for which you want to add syntax highlighting (you can also add plugins i.e. line numbers).</li>
+</ul>
 
+<ol>
 <li><p>Download your custom made <strong>prism.js</strong> and <strong>prism.css</strong> files.</p></li>
 
 <li><p>Now you need to upload those files onto the server which hosts your blog. Great hosting site which I use and highly recommend is <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>. For upload I like to use <code>scp</code>.</p></li>
-</ul>
+</ol>
 
 <pre><code>$ cd /directory/where/your/prisms/files/are
 $ scp prism.js prism.css your_login@servername.com:~
@@ -188,7 +190,7 @@ on the beginning of the file, it should look similarly to this</li>
 
 <p>Now restart Ghost. If you are using <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>, simply type <code>$ service ghost restart</code>.</p>
 
-<h3 id="testing:6f250022fee7cdd33f6557dfe0bc170e">Testing</h3>
+<h3 id="testing">Testing</h3>
 
 <p>Edit one of your posts and add a section at the end which looks similarly to mine (when I was creating my custom prism file, I added support for <code>javascript</code> if you hadn&rsquo;t, simply change <em>javascript</em> into some language name which your prism version supports).</p>
 
@@ -283,8 +285,8 @@ on the beginning of the file, it should look similarly to this</li>
 <ul>
 <li>
 <ul>
-<li><a href="#installing-prism:6f250022fee7cdd33f6557dfe0bc170e">Installing Prism</a></li>
-<li><a href="#testing:6f250022fee7cdd33f6557dfe0bc170e">Testing</a></li>
+<li><a href="#installing-prism">Installing Prism</a></li>
+<li><a href="#testing">Testing</a></li>
 </ul></li>
 </ul></li>
 </ul>

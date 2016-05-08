@@ -81,9 +81,9 @@ Eventually the pain escalated and typing even six hours a day made my hands hurt
 
 &lt;p&gt;It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-4-0:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 4.0&lt;/h2&gt;
+&lt;h2 id=&#34;ios-4-0&#34;&gt;iOS 4.0&lt;/h2&gt;
 
-&lt;h3 id=&#34;multitasking:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Multitasking&lt;/h3&gt;
+&lt;h3 id=&#34;multitasking&#34;&gt;Multitasking&lt;/h3&gt;
 
 &lt;p&gt;Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions:&lt;/p&gt;
 
@@ -95,27 +95,27 @@ Eventually the pain escalated and typing even six hours a day made my hands hurt
 
 &lt;p&gt;The app which is in background mode can still be terminated due to some conditions for example low memory, therefore the applications must be ready to exit at any time.&lt;/p&gt;
 
-&lt;h3 id=&#34;blocks:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Blocks&lt;/h3&gt;
+&lt;h3 id=&#34;blocks&#34;&gt;Blocks&lt;/h3&gt;
 
 &lt;p&gt;Really great feature making source code cleaner and developer&amp;rsquo;s live a lot easier. Block are segments of code that can be passed to methods and functions, get invoked, assigned to properties.&lt;/p&gt;
 
-&lt;h3 id=&#34;gcd:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;GCD&lt;/h3&gt;
+&lt;h3 id=&#34;gcd&#34;&gt;GCD&lt;/h3&gt;
 
 &lt;p&gt;Thread programming is hard, no question about it, how about making a simpler alternative which is really easy to use? That&amp;rsquo;s where GCD (Grand Central Dispatch) comes in. No more blocking of main thread, apps are now more responsive (if written right)!&lt;/p&gt;
 
-&lt;h3 id=&#34;local-notifications:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Local Notifications&lt;/h3&gt;
+&lt;h3 id=&#34;local-notifications&#34;&gt;Local Notifications&lt;/h3&gt;
 
 &lt;p&gt;The app can issue a local notification, which will inform a user about an important event. Mostly used when the app is in the background mode.&lt;/p&gt;
 
-&lt;h3 id=&#34;event-kit:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Event Kit&lt;/h3&gt;
+&lt;h3 id=&#34;event-kit&#34;&gt;Event Kit&lt;/h3&gt;
 
 &lt;p&gt;Provides an interface for accessing calendar events on a user’s device. You can use this framework to get existing events and add new events to the user’s calendar.&lt;/p&gt;
 
-&lt;h3 id=&#34;core-motion:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Core Motion&lt;/h3&gt;
+&lt;h3 id=&#34;core-motion&#34;&gt;Core Motion&lt;/h3&gt;
 
 &lt;p&gt;How about getting info about iPhone state form motion-based sensors, and using it to build a game where you can manipulate a ball through rotating the device? Sounds great? You can do it with the use of Core Motion framework.&lt;/p&gt;
 
-&lt;h3 id=&#34;data-protection:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Data Protection&lt;/h3&gt;
+&lt;h3 id=&#34;data-protection&#34;&gt;Data Protection&lt;/h3&gt;
 
 &lt;p&gt;Build in encryption can now be used when working with sensitive user data.
 &amp;gt;When your application designates a particular file as protected, the system stores that file on-disk in an encrypted format. While the device is locked, the contents of the file are inaccessible to both your application and to any potential intruders. However, when the device is unlocked by the user, a decryption key is created to allow your application to access the file.&lt;/p&gt;
@@ -124,164 +124,164 @@ Eventually the pain escalated and typing even six hours a day made my hands hurt
 &lt;p&gt;Implementing data protection requires you to be considerate in how you create and manage the data you want to protect. Applications must themselves be designed to secure the data at creation time and to be prepared for changes in access to that data when the user locks and unlocks the device.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;core-telephony:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Core Telephony&lt;/h3&gt;
+&lt;h3 id=&#34;core-telephony&#34;&gt;Core Telephony&lt;/h3&gt;
 
 &lt;p&gt;This framework provides interfaces for interacting with phone-based information on devices that have a cellular radio. Apps can get information about a user’s cellular service provider and be notified when call events occur.&lt;/p&gt;
 
-&lt;h3 id=&#34;iad:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iAd&lt;/h3&gt;
+&lt;h3 id=&#34;iad&#34;&gt;iAd&lt;/h3&gt;
 
 &lt;p&gt;Advertisements framework allows a developer to monetize an app in different way.
 Why would anyone spoil the app with ads?&lt;/p&gt;
 
-&lt;h3 id=&#34;quicklook-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;QuickLook Framework&lt;/h3&gt;
+&lt;h3 id=&#34;quicklook-framework&#34;&gt;QuickLook Framework&lt;/h3&gt;
 
 &lt;p&gt;The Quick Look framework for iOS, allows to preview the contents of files an app does not support directly.&lt;/p&gt;
 
-&lt;h3 id=&#34;av-foundation:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;AV Foundation&lt;/h3&gt;
+&lt;h3 id=&#34;av-foundation&#34;&gt;AV Foundation&lt;/h3&gt;
 
 &lt;p&gt;That&amp;rsquo;s the bomb! Very powerful framework which allows developers to do a ton of crazy stuff. Playing audio, video, recording and so on. You should definitely check it out!&lt;/p&gt;
 
-&lt;h3 id=&#34;asset-library:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Asset Library&lt;/h3&gt;
+&lt;h3 id=&#34;asset-library&#34;&gt;Asset Library&lt;/h3&gt;
 
 &lt;p&gt;A framework which provide interface for retrieving a user’s photos and videos. Using this framework, you can access the same assets that are managed by the Photos application.&lt;/p&gt;
 
-&lt;h3 id=&#34;image-i-o:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Image I/O&lt;/h3&gt;
+&lt;h3 id=&#34;image-i-o&#34;&gt;Image I/O&lt;/h3&gt;
 
 &lt;p&gt;Importing and exporting image data and image metadata.
 &amp;gt;This framework is built on top of the Core Graphics data types and functions and supports all of the standard image types available in iOS.&lt;/p&gt;
 
-&lt;h3 id=&#34;core-media:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Core Media&lt;/h3&gt;
+&lt;h3 id=&#34;core-media&#34;&gt;Core Media&lt;/h3&gt;
 
 &lt;p&gt;Even more powerful than AV Foundation which is build on top of it. Check it out if you are interested in more low-level stuff.&lt;/p&gt;
 
-&lt;h3 id=&#34;cored-video:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Cored Video&lt;/h3&gt;
+&lt;h3 id=&#34;cored-video&#34;&gt;Cored Video&lt;/h3&gt;
 
 &lt;p&gt;Funny apple description, they make it sound as some scary black magic is going on inside this framework. More reasons to check it out!
 &amp;gt;The Core Video framework (CoreVideo.framework) provides buffer and buffer pool support for Core Media. Most applications should never need to use this framework directly.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-4-1:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 4.1&lt;/h2&gt;
+&lt;h2 id=&#34;ios-4-1&#34;&gt;iOS 4.1&lt;/h2&gt;
 
-&lt;h3 id=&#34;game-center:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Game Center&lt;/h3&gt;
+&lt;h3 id=&#34;game-center&#34;&gt;Game Center&lt;/h3&gt;
 
 &lt;p&gt;Games becoming more social with use of this framework. User can create it&amp;rsquo;s own profile which will be universal. Leaderboards, matchmaking and achievements mean users will gets more fun interacting with each other.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-4-2:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 4.2&lt;/h2&gt;
+&lt;h2 id=&#34;ios-4-2&#34;&gt;iOS 4.2&lt;/h2&gt;
 
-&lt;h3 id=&#34;printing:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Printing&lt;/h3&gt;
+&lt;h3 id=&#34;printing&#34;&gt;Printing&lt;/h3&gt;
 
 &lt;p&gt;iOS now incorporates support for wireless printing from iPhone and iPad applications.&lt;/p&gt;
 
-&lt;h3 id=&#34;air-play:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Air Play&lt;/h3&gt;
+&lt;h3 id=&#34;air-play&#34;&gt;Air Play&lt;/h3&gt;
 
 &lt;p&gt;Audio streaming to Apple TV and to third-party AirPlay speakers and receivers.&lt;/p&gt;
 
-&lt;h3 id=&#34;core-midi:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Core MIDI&lt;/h3&gt;
+&lt;h3 id=&#34;core-midi&#34;&gt;Core MIDI&lt;/h3&gt;
 
 &lt;p&gt;Provides a standard way to communicate with MIDI devices, including hardware keyboards and synthesisers.&lt;/p&gt;
 
-&lt;h3 id=&#34;weak-linking-support:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Weak Linking Support&lt;/h3&gt;
+&lt;h3 id=&#34;weak-linking-support&#34;&gt;Weak Linking Support&lt;/h3&gt;
 
 &lt;p&gt;System frameworks now tag their classes with availability information that the compiler can use to link weakly to those classes as needed. It is easer to check if the class is available at the runtime. Previously, you needed to use the NSClassFromString function to determine whether a class was present, now you can simply check for the existence the class directly with the use of &lt;em&gt;class&lt;/em&gt; method. Generally speaking these feature makes life easier.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-4-3:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 4.3&lt;/h2&gt;
+&lt;h2 id=&#34;ios-4-3&#34;&gt;iOS 4.3&lt;/h2&gt;
 
-&lt;h3 id=&#34;air-play-video-support:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Air Play Video Support&lt;/h3&gt;
+&lt;h3 id=&#34;air-play-video-support&#34;&gt;Air Play Video Support&lt;/h3&gt;
 
 &lt;p&gt;Previous version added support for audio streaming, this allows streaming of video.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-5-0:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 5.0&lt;/h2&gt;
+&lt;h2 id=&#34;ios-5-0&#34;&gt;iOS 5.0&lt;/h2&gt;
 
-&lt;h3 id=&#34;icloud-storage:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iCloud Storage&lt;/h3&gt;
+&lt;h3 id=&#34;icloud-storage&#34;&gt;iCloud Storage&lt;/h3&gt;
 
 &lt;p&gt;Really great feature build for easy access of your data by the NSA in mind. You will have an option to store all your data in a central location, where Apple will keep it &amp;lsquo;secure&amp;rsquo;. Complete erosion of privacy&amp;hellip; nah just kidding (or am I?).&lt;/p&gt;
 
-&lt;h3 id=&#34;icloud-backup:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iCloud Backup&lt;/h3&gt;
+&lt;h3 id=&#34;icloud-backup&#34;&gt;iCloud Backup&lt;/h3&gt;
 
 &lt;p&gt;Easier restoration of apps through cloud backup, space is limited so send &lt;strong&gt;only&lt;/strong&gt; the most important ones&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;automatic-reference-counting:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Automatic Reference Counting&lt;/h3&gt;
+&lt;h3 id=&#34;automatic-reference-counting&#34;&gt;Automatic Reference Counting&lt;/h3&gt;
 
 &lt;p&gt;Memory management in Objective-C is based on retain count of objects, if retain count is greater than zero object resides in memory, when it gets down to zero the object gets dealloceted. It was developer responsibility to manage the retain count, with the introduction of ARC it is compiler responsibility.&lt;/p&gt;
 
-&lt;h3 id=&#34;storyboard:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Storyboard&lt;/h3&gt;
+&lt;h3 id=&#34;storyboard&#34;&gt;Storyboard&lt;/h3&gt;
 
 &lt;p&gt;Previously if you didn&amp;rsquo;t wanted create the controllers views programatically you could do it using nib files. Each controller had its own nib, storyboard captures your entire user interface in one place.&lt;/p&gt;
 
-&lt;h3 id=&#34;newsstand-support:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Newsstand Support&lt;/h3&gt;
+&lt;h3 id=&#34;newsstand-support&#34;&gt;Newsstand Support&lt;/h3&gt;
 
 &lt;p&gt;Newsstand provides a central place for users to read magazines and newspapers.&lt;/p&gt;
 
-&lt;h3 id=&#34;new-frameworks:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;New Frameworks&lt;/h3&gt;
+&lt;h3 id=&#34;new-frameworks&#34;&gt;New Frameworks&lt;/h3&gt;
 
-&lt;h4 id=&#34;glkit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;GLKit Framework&lt;/h4&gt;
+&lt;h4 id=&#34;glkit-framework&#34;&gt;GLKit Framework&lt;/h4&gt;
 
 &lt;p&gt;Utility classes that simplify the effort required to create an OpenGL ES 2.0 app.&lt;/p&gt;
 
-&lt;h4 id=&#34;core-image-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Core Image Framework&lt;/h4&gt;
+&lt;h4 id=&#34;core-image-framework&#34;&gt;Core Image Framework&lt;/h4&gt;
 
 &lt;p&gt;Really fast way to apply filters to images and video, uses CPU and GPU processing power. Really powerful.&lt;/p&gt;
 
-&lt;h4 id=&#34;twitter-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Twitter Framework&lt;/h4&gt;
+&lt;h4 id=&#34;twitter-framework&#34;&gt;Twitter Framework&lt;/h4&gt;
 
 &lt;p&gt;Provides support for sending Twitter requests on behalf of the user and for composing and sending tweets. For requests, the framework handles the user authentication part of the request for you and provides a template for creating the HTTP portion of the request.&lt;/p&gt;
 
-&lt;h4 id=&#34;accounts-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Accounts Framework&lt;/h4&gt;
+&lt;h4 id=&#34;accounts-framework&#34;&gt;Accounts Framework&lt;/h4&gt;
 
 &lt;p&gt;Provides system wide sign-on model for certain user accounts. Single sign-on improves the user experience, because apps no longer need to prompt a user separately for login information related to an account.&lt;/p&gt;
 
-&lt;h4 id=&#34;generic-security-services-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Generic Security Services Framework&lt;/h4&gt;
+&lt;h4 id=&#34;generic-security-services-framework&#34;&gt;Generic Security Services Framework&lt;/h4&gt;
 
 &lt;p&gt;Security related services to iOS apps. Very little info about this one in Apple&amp;rsquo;s developer library, &lt;a href=&#34;http://www.ietf.org/rfc/rfc2743.txt&#34;&gt;rfc-2743&lt;/a&gt;, &lt;a href=&#34;http://tools.ietf.org/html/rfc4401&#34;&gt;rfc-4401&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;core-bluetooth:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Core Bluetooth&lt;/h4&gt;
+&lt;h4 id=&#34;core-bluetooth&#34;&gt;Core Bluetooth&lt;/h4&gt;
 
 &lt;p&gt;Framework allows developers to interact specifically with Bluetooth accessories.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-5-1:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 5.1&lt;/h2&gt;
+&lt;h2 id=&#34;ios-5-1&#34;&gt;iOS 5.1&lt;/h2&gt;
 
-&lt;h3 id=&#34;dictation-support:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Dictation support&lt;/h3&gt;
+&lt;h3 id=&#34;dictation-support&#34;&gt;Dictation support&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;On supported devices, iOS automatically inserts recognised phrases into the current text view when the user has chosen dictation input. The new UIDictationPhrase class (declared in UITextInput.h) provides you with a string representing a phrase that a user has dictated. In the case of ambiguous dictation results, the new class provides an array containing alternative strings. New methods in the UITextInput protocol allow your app to respond to the completion of dictation.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;ios-6-0:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 6.0&lt;/h2&gt;
+&lt;h2 id=&#34;ios-6-0&#34;&gt;iOS 6.0&lt;/h2&gt;
 
-&lt;h3 id=&#34;maps:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Maps&lt;/h3&gt;
+&lt;h3 id=&#34;maps&#34;&gt;Maps&lt;/h3&gt;
 
 &lt;p&gt;Apple introduces it&amp;rsquo;s own Map framework to challenge Google.Apps that do not incorporate their own map support now have an easier way to launch the Maps app and display points of interest or directions.&lt;/p&gt;
 
-&lt;h3 id=&#34;social-frameworks:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Social Frameworks&lt;/h3&gt;
+&lt;h3 id=&#34;social-frameworks&#34;&gt;Social Frameworks&lt;/h3&gt;
 
 &lt;p&gt;Ever tired of having separate frameworks for Twitter, Facebook or Sina&amp;rsquo;s Weibo?  Managing their versions and keeping everything up to date? Apple response is a framework which unifies all those services.&lt;/p&gt;
 
-&lt;h3 id=&#34;pass-kit:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Pass Kit&lt;/h3&gt;
+&lt;h3 id=&#34;pass-kit&#34;&gt;Pass Kit&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Pass Kit is a new technology that uses web services, a new file format, and an Objective-C framework (PassKit.framework) to implement support for downloadable passes. Companies can create passes to represent items such as coupons, boarding passes, event tickets, and discount cards for businesses. Instead of carrying a physical representation of these items, users can now store them on their iOS device and use them the same way as before.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;reminders:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Reminders&lt;/h3&gt;
+&lt;h3 id=&#34;reminders&#34;&gt;Reminders&lt;/h3&gt;
 
 &lt;p&gt;In previous version Event Kit allowed creation, deletion - general management of calendar events. Since iOS6 it will allow to use reminders.&lt;/p&gt;
 
-&lt;h3 id=&#34;in-app-purchases:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;In-App Purchases&lt;/h3&gt;
+&lt;h3 id=&#34;in-app-purchases&#34;&gt;In-App Purchases&lt;/h3&gt;
 
 &lt;p&gt;Introduction of freemium model and slow death of paid apps. User can now purchase additional content inside the app.&lt;/p&gt;
 
-&lt;h3 id=&#34;collection-views:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Collection Views&lt;/h3&gt;
+&lt;h3 id=&#34;collection-views&#34;&gt;Collection Views&lt;/h3&gt;
 
 &lt;p&gt;Really great addition, it&amp;rsquo;s worth to set deployment target to iOS6 (not iOS5) solely for this collection views. Easy way to create more robust user interface.&lt;/p&gt;
 
-&lt;h3 id=&#34;ui-state-preservation:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;UI State Preservation&lt;/h3&gt;
+&lt;h3 id=&#34;ui-state-preservation&#34;&gt;UI State Preservation&lt;/h3&gt;
 
 &lt;p&gt;Even when an app gets terminated by the operating system, its now possible to restore user interface to the state when it was last used.&lt;/p&gt;
 
-&lt;h3 id=&#34;auto-layout:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Auto Layout&lt;/h3&gt;
+&lt;h3 id=&#34;auto-layout&#34;&gt;Auto Layout&lt;/h3&gt;
 
 &lt;p&gt;More robust system than previously used &amp;ldquo;springs and struts&amp;rdquo; for laying out user interface elements.&lt;/p&gt;
 
-&lt;h3 id=&#34;data-privacy:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Data Privacy&lt;/h3&gt;
+&lt;h3 id=&#34;data-privacy&#34;&gt;Data Privacy&lt;/h3&gt;
 
 &lt;p&gt;In addition to location data, the system now asks the user’s permission before allowing third-party apps to access certain user data, including:&lt;/p&gt;
 
@@ -292,81 +292,81 @@ Why would anyone spoil the app with ads?&lt;/p&gt;
 &lt;li&gt;Photo Library&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;ios-6-1:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 6.1&lt;/h2&gt;
+&lt;h2 id=&#34;ios-6-1&#34;&gt;iOS 6.1&lt;/h2&gt;
 
-&lt;h3 id=&#34;map-kit-searches:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Map Kit Searches&lt;/h3&gt;
+&lt;h3 id=&#34;map-kit-searches&#34;&gt;Map Kit Searches&lt;/h3&gt;
 
 &lt;p&gt;Developer is able to programmatically search for map-based addresses and points of interest.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-7-0:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 7.0&lt;/h2&gt;
+&lt;h2 id=&#34;ios-7-0&#34;&gt;iOS 7.0&lt;/h2&gt;
 
-&lt;h3 id=&#34;user-interface-changes:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;User Interface Changes&lt;/h3&gt;
+&lt;h3 id=&#34;user-interface-changes&#34;&gt;User Interface Changes&lt;/h3&gt;
 
-&lt;h4 id=&#34;ui-redesign:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;UI Redesign&lt;/h4&gt;
+&lt;h4 id=&#34;ui-redesign&#34;&gt;UI Redesign&lt;/h4&gt;
 
 &lt;p&gt;The iOS 7 user interface has been completely redesigned.Newly introduced flat design focuses on functionality and on the user’s content informs every aspect of design.&lt;/p&gt;
 
-&lt;h4 id=&#34;dynamic-behaviours-for-views:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Dynamic Behaviours for Views&lt;/h4&gt;
+&lt;h4 id=&#34;dynamic-behaviours-for-views&#34;&gt;Dynamic Behaviours for Views&lt;/h4&gt;
 
 &lt;p&gt;Introduction of physics based animation engine into iOS, more possibilities for creating crazy looking animations.&lt;/p&gt;
 
-&lt;h4 id=&#34;text-kit:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Text Kit&lt;/h4&gt;
+&lt;h4 id=&#34;text-kit&#34;&gt;Text Kit&lt;/h4&gt;
 
 &lt;p&gt;New version of iOS focuses more on content, Text Kit framework allows better management of text and typography.&lt;/p&gt;
 
-&lt;h3 id=&#34;64-bit-support:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;64-Bit Support&lt;/h3&gt;
+&lt;h3 id=&#34;64-bit-support&#34;&gt;64-Bit Support&lt;/h3&gt;
 
 &lt;p&gt;When compiled for the 64-bit runtime, apps may run faster because of the availability of extra processor resources in 64-bit mode, they will also use more memory.&lt;/p&gt;
 
-&lt;h3 id=&#34;multitasking-enhancements:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Multitasking Enhancements&lt;/h3&gt;
+&lt;h3 id=&#34;multitasking-enhancements&#34;&gt;Multitasking Enhancements&lt;/h3&gt;
 
 &lt;p&gt;Apps can now fetch new content, after receiving silent push notification from a server. When fetching is complete, it can inform user about new podcast, tv show, podcast - all process done without user interaction.&lt;/p&gt;
 
-&lt;h3 id=&#34;games:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Games&lt;/h3&gt;
+&lt;h3 id=&#34;games&#34;&gt;Games&lt;/h3&gt;
 
-&lt;h4 id=&#34;sprite-kit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Sprite Kit Framework&lt;/h4&gt;
+&lt;h4 id=&#34;sprite-kit-framework&#34;&gt;Sprite Kit Framework&lt;/h4&gt;
 
 &lt;p&gt;Games are big on App Store, till now there has been no Apple frameworks for creating them, only open source like &lt;a href=&#34;http://cocos2d.org&#34;&gt;cocos2d&lt;/a&gt;.
 In fact if you know cocos2d you will adapt the Sprite Kit very quickly.&lt;/p&gt;
 
-&lt;h4 id=&#34;game-controller-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Game Controller Framework&lt;/h4&gt;
+&lt;h4 id=&#34;game-controller-framework&#34;&gt;Game Controller Framework&lt;/h4&gt;
 
 &lt;p&gt;This framework standardises the use of third party game controller hardware.
 &amp;gt;Game controllers can be devices connected physically to an iOS device or connected wirelessly over Bluetooth. The Game Controller framework notifies your app when controllers become available and lets you specify which controller inputs are relevant to your app.&lt;/p&gt;
 
-&lt;h4 id=&#34;game-center-improvements:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Game Center Improvements&lt;/h4&gt;
+&lt;h4 id=&#34;game-center-improvements&#34;&gt;Game Center Improvements&lt;/h4&gt;
 
 &lt;p&gt;Exchanges which lets you create simultaneous turns, player chats, increased size of leaderboards or conditions in challenges.&lt;/p&gt;
 
-&lt;h3 id=&#34;airdrop:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;AirDrop&lt;/h3&gt;
+&lt;h3 id=&#34;airdrop&#34;&gt;AirDrop&lt;/h3&gt;
 
 &lt;p&gt;Sharing photos, document, URLs and other kinds of data with nearby iPhones, iPads or Macs.&lt;/p&gt;
 
-&lt;h3 id=&#34;inter-app-audio:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Inter-App Audio&lt;/h3&gt;
+&lt;h3 id=&#34;inter-app-audio&#34;&gt;Inter-App Audio&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;The Audio Unit framework (AudioUnit.framework) adds support for Inter-App Audio, which enables the ability to send MIDI commands and stream audio between apps on the same device. For example, you might use this feature to record music from an app acting as an instrument or use it to send audio to another app for processing. To vend your app’s audio data, publish a I/O audio unit (AURemoteIO) that is visible to other processes. To use audio features from another app, use the audio component discovery interfaces in iOS 7.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;peer-to-peer-connectivity:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Peer-to-Peer Connectivity&lt;/h3&gt;
+&lt;h3 id=&#34;peer-to-peer-connectivity&#34;&gt;Peer-to-Peer Connectivity&lt;/h3&gt;
 
 &lt;p&gt;Framework for network peer-to-peer interaction between devices.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-7-1:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 7.1&lt;/h2&gt;
+&lt;h2 id=&#34;ios-7-1&#34;&gt;iOS 7.1&lt;/h2&gt;
 
-&lt;h3 id=&#34;support-for-external-media-players:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Support for External Media Players&lt;/h3&gt;
+&lt;h3 id=&#34;support-for-external-media-players&#34;&gt;Support for External Media Players&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Apps can now receive and respond to events sent by an external media player. This process lets users interact solely with the external media player, removing the need to interact directly with an iOS device.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;opengl-es:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;OpenGL ES&lt;/h3&gt;
+&lt;h3 id=&#34;opengl-es&#34;&gt;OpenGL ES&lt;/h3&gt;
 
 &lt;p&gt;Multithreading support added to OpenGL ES.&lt;/p&gt;
 
-&lt;h2 id=&#34;ios-8-0:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iOS 8.0&lt;/h2&gt;
+&lt;h2 id=&#34;ios-8-0&#34;&gt;iOS 8.0&lt;/h2&gt;
 
-&lt;h3 id=&#34;swift:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Swift&lt;/h3&gt;
+&lt;h3 id=&#34;swift&#34;&gt;Swift&lt;/h3&gt;
 
 &lt;p&gt;Introduction of new language called Swift, which is designed to be as productive as Ruby and as fast as Ansi C, Objective-C and C++. There are many features which will make this language great&lt;/p&gt;
 
@@ -378,59 +378,59 @@ In fact if you know cocos2d you will adapt the Sprite Kit very quickly.&lt;/p&gt
 &lt;li&gt;Closures and much much more.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;app-extensions:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;App Extensions&lt;/h3&gt;
+&lt;h3 id=&#34;app-extensions&#34;&gt;App Extensions&lt;/h3&gt;
 
 &lt;p&gt;Extensions allows custom functionality within a context of a user task. For example if user plays with Apple&amp;rsquo;s photos app and want to share cool picture by your social app called Momo he simply can do it by an extension which you provided from photos app. No need to go to Momo specifically import image and than share it!&lt;/p&gt;
 
-&lt;h3 id=&#34;touch-id-authentication:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Touch ID Authentication&lt;/h3&gt;
+&lt;h3 id=&#34;touch-id-authentication&#34;&gt;Touch ID Authentication&lt;/h3&gt;
 
 &lt;p&gt;More secure access to content inside an app, you can require a user to authenticated before proceeding.&lt;/p&gt;
 
-&lt;h3 id=&#34;photos:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Photos&lt;/h3&gt;
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
 
-&lt;h4 id=&#34;photos-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Photos Framework&lt;/h4&gt;
+&lt;h4 id=&#34;photos-framework&#34;&gt;Photos Framework&lt;/h4&gt;
 
 &lt;p&gt;Provides new APIs for working with photo and video assets, including iCloud Photos assets, that are managed by the Photos app. This framework is a more capable alternative to the Assets Library framework.&lt;/p&gt;
 
-&lt;h4 id=&#34;manual-camera-controls:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Manual Camera Controls&lt;/h4&gt;
+&lt;h4 id=&#34;manual-camera-controls&#34;&gt;Manual Camera Controls&lt;/h4&gt;
 
 &lt;p&gt;Long awaited feature, AV Foundation now allows for direct control of the camera focus, white balance and exposure settings!&lt;/p&gt;
 
-&lt;h3 id=&#34;games-1:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Games&lt;/h3&gt;
+&lt;h3 id=&#34;games-1&#34;&gt;Games&lt;/h3&gt;
 
 &lt;p&gt;Technology improvements in iOS 8 make it easier than ever to implement your game’s graphics and audio features. Some of the new additions are Metal (access to high performance A7 GPU), improvements in Scene Kit and Sprite Kit.&lt;/p&gt;
 
-&lt;h3 id=&#34;health-kit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Health Kit Framework&lt;/h3&gt;
+&lt;h3 id=&#34;health-kit-framework&#34;&gt;Health Kit Framework&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Health Kit makes it easy for apps to share health-related information, whether that information comes from devices connected to an iOS device or is entered manually by the user. The user’s health information is stored in a centralised and secure location. The user can then see all of that data displayed in the Health app.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;home-kit-framework:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Home Kit Framework&lt;/h3&gt;
+&lt;h3 id=&#34;home-kit-framework&#34;&gt;Home Kit Framework&lt;/h3&gt;
 
 &lt;p&gt;Framework for communicating with devices in a user&amp;rsquo;s home. Easy way to discover devices and configure them.&lt;/p&gt;
 
-&lt;h3 id=&#34;icloud:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;iCloud&lt;/h3&gt;
+&lt;h3 id=&#34;icloud&#34;&gt;iCloud&lt;/h3&gt;
 
-&lt;h4 id=&#34;document-related-data-migration:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Document-Related Data Migration&lt;/h4&gt;
+&lt;h4 id=&#34;document-related-data-migration&#34;&gt;Document-Related Data Migration&lt;/h4&gt;
 
 &lt;p&gt;When users logs in to iCloud through device running iOS8 all the documents get migrated to a new version of the app&amp;rsquo;s container directory. Devices running older operating systems will continue to have access to the original container, but changes made in that container will not appear in the new container and vice versa.&lt;/p&gt;
 
-&lt;h4 id=&#34;cloud-kit:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Cloud Kit&lt;/h4&gt;
+&lt;h4 id=&#34;cloud-kit&#34;&gt;Cloud Kit&lt;/h4&gt;
 
 &lt;p&gt;New great way to store users data without the need to setting up your own server, you have access to 1PB of disc space for free. Cloud Kit gives you control over when transfers occur. You can use Cloud Kit to manage all types of data.&lt;/p&gt;
 
-&lt;h4 id=&#34;document-picker:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Document Picker&lt;/h4&gt;
+&lt;h4 id=&#34;document-picker&#34;&gt;Document Picker&lt;/h4&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;The document picker view controller grants users access to files outside your application’s sandbox. It is a simple mechanism for sharing documents between apps. It also enables more complex workflows, because users can edit a single document with multiple apps.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;handoff:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Handoff&lt;/h3&gt;
+&lt;h3 id=&#34;handoff&#34;&gt;Handoff&lt;/h3&gt;
 
 &lt;p&gt;Handoff enables users to begin an activity on one device, then switch to another device and resume the same activity on the other device. For example, a user who is writing a document moves to an iOS device that&amp;rsquo;s signed into the same Apple ID, and the same document automatically opens on iOS.&lt;/p&gt;
 
-&lt;h3 id=&#34;unified-storyboards-for-universal-apps:ce0ecd54b2042f4bca9d181ab2a4bb97&#34;&gt;Unified Storyboards for Universal Apps&lt;/h3&gt;
+&lt;h3 id=&#34;unified-storyboards-for-universal-apps&#34;&gt;Unified Storyboards for Universal Apps&lt;/h3&gt;
 
 &lt;p&gt;One storyboard to rule them all, you no longer need to use separate storyboards for iPhone and iPad, also with adaptive controllers writing multi device apps will be easier than before.&lt;/p&gt;
 
@@ -451,23 +451,23 @@ Rising early is also a common habit among many successful people. Margaret Thatc
 When Ted Turner is being asked a question &lt;em&gt;what is the secret to success?&lt;/em&gt; He answers.
 &amp;gt; Early to bed, early to rise. Work like hell and advertise.&lt;/p&gt;
 
-&lt;h3 id=&#34;current-routine:804199d3fbc56ff28ccd9a2adb7537ed&#34;&gt;Current routine&lt;/h3&gt;
+&lt;h3 id=&#34;current-routine&#34;&gt;Current routine&lt;/h3&gt;
 
 &lt;p&gt;I have developed a certain routine that gets me started. The routine is not easy, for it requires me to get up at 5:30 a.m. I am not a morning person, don’t like to oversleep either, but 5:30 much to early for me, therefore I need to force myself (at lest needed to, on the beginning), but it’s worth it!&lt;/p&gt;
 
 &lt;p&gt;After an early rise I dress up for a workout. It is critically important to have a workout clothes next to an alarm clock (the alarm clock should be a few meters away from your bed). When I don&amp;rsquo;t prepare my clothes earlier, most of the time I simply slip back into bed.
 Next I go into a kitchen, where I drink up a glass of water and go out for a morning workout. Usually my workout consists of cycling (1 hour) and pull-ups or running. After this I take a shower, drink water and go meditate for a few minutes just to clear my mind. After a quick meditation I start working.&lt;/p&gt;
 
-&lt;h3 id=&#34;benefits:804199d3fbc56ff28ccd9a2adb7537ed&#34;&gt;Benefits&lt;/h3&gt;
+&lt;h3 id=&#34;benefits&#34;&gt;Benefits&lt;/h3&gt;
 
 &lt;p&gt;Being a developer means one spend most of the time in front of a computer. This sedentary lifestyle is really bad for ones health, therefore working out is crucially important.
 Whenever I neglect my morning routine for three or four days in a row, I start to feel really bad. My efficiency drops, I start feeling less happy, less energetic. &lt;strong&gt;Bottom line, my morning routine helps me cut through my tasks like a laser.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;changes:804199d3fbc56ff28ccd9a2adb7537ed&#34;&gt;Changes&lt;/h3&gt;
+&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
 
 &lt;p&gt;There are some changes which I will be making to my morning routine (I love to improve things). I would like to write more blog posts and learn spanish a little bit. Due to high workload I haven&amp;rsquo;t been able to make this changes yet, but I will soon. What I would like to avoid is adding to many tasks, I&amp;rsquo;m afraid it would make my mourning routine less enjoyable and more difficult to get into the right mindset.&lt;/p&gt;
 
-&lt;h3 id=&#34;create-routine:804199d3fbc56ff28ccd9a2adb7537ed&#34;&gt;Create routine&lt;/h3&gt;
+&lt;h3 id=&#34;create-routine&#34;&gt;Create routine&lt;/h3&gt;
 
 &lt;p&gt;If you would like to create your own morning routined I have a few quick tips. Don&amp;rsquo;t try to overload yourself with the tasks. Start small and then go from there. If you want to get up early, go to sleep around 10PM. If you still can’t work at 5, than 6 is also ok.
 There is a reason why I do workout first, meditation second and no the other way around; it helps me wake up.
@@ -484,17 +484,17 @@ I will repeat myself &lt;em&gt;have everything prepared&lt;/em&gt;, it will real
       <guid>http://pawelropa.github.io/post/markdown-and-ghost/</guid>
       <description>
 
-&lt;h2 id=&#34;what-is-markdown:239730413a294903136e54d1dbf6d9d1&#34;&gt;What is markdown&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-markdown&#34;&gt;What is markdown&lt;/h2&gt;
 
 &lt;p&gt;It&amp;rsquo;s a plain text formating syntax, which is easy to read, optionally it can be converted to HTML.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-use-it:239730413a294903136e54d1dbf6d9d1&#34;&gt;Why use it&lt;/h2&gt;
+&lt;h2 id=&#34;why-use-it&#34;&gt;Why use it&lt;/h2&gt;
 
 &lt;p&gt;Because it is really easy, fast and powerfull. Without markdown one can use basically text editor and &lt;strong&gt;mouse&lt;/strong&gt; to format text, the other option is to write text in pure HTML to format it nicely, but it&amp;rsquo;s much harder (nobody really want to type those ugly tags).&lt;/p&gt;
 
-&lt;h2 id=&#34;syntax:239730413a294903136e54d1dbf6d9d1&#34;&gt;Syntax&lt;/h2&gt;
+&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;
 
-&lt;h3 id=&#34;headers:239730413a294903136e54d1dbf6d9d1&#34;&gt;Headers&lt;/h3&gt;
+&lt;h3 id=&#34;headers&#34;&gt;Headers&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;H1 header
 =========
@@ -511,23 +511,23 @@ or as a alternative
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;h1-header:239730413a294903136e54d1dbf6d9d1&#34;&gt;H1 header&lt;/h1&gt;
+&lt;h1 id=&#34;h1-header&#34;&gt;H1 header&lt;/h1&gt;
 
-&lt;h2 id=&#34;h2-header:239730413a294903136e54d1dbf6d9d1&#34;&gt;H2 header&lt;/h2&gt;
+&lt;h2 id=&#34;h2-header&#34;&gt;H2 header&lt;/h2&gt;
 
-&lt;h1 id=&#34;h1:239730413a294903136e54d1dbf6d9d1&#34;&gt;H1&lt;/h1&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
 
-&lt;h2 id=&#34;h2:239730413a294903136e54d1dbf6d9d1&#34;&gt;H2&lt;/h2&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
 
-&lt;h3 id=&#34;h3:239730413a294903136e54d1dbf6d9d1&#34;&gt;H3&lt;/h3&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
 
-&lt;h4 id=&#34;h4:239730413a294903136e54d1dbf6d9d1&#34;&gt;H4&lt;/h4&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
 
-&lt;h5 id=&#34;h5:239730413a294903136e54d1dbf6d9d1&#34;&gt;H5&lt;/h5&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
 
-&lt;h6 id=&#34;h6:239730413a294903136e54d1dbf6d9d1&#34;&gt;H6&lt;/h6&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
 
-&lt;h3 id=&#34;emphasis:239730413a294903136e54d1dbf6d9d1&#34;&gt;Emphasis&lt;/h3&gt;
+&lt;h3 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Italics, with *asterisks* or _underscores_.
 
@@ -546,7 +546,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 &lt;p&gt;Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;/del&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;unordered-lists:239730413a294903136e54d1dbf6d9d1&#34;&gt;Unordered lists&lt;/h3&gt;
+&lt;h3 id=&#34;unordered-lists&#34;&gt;Unordered lists&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;* Unordered list can use asterisks
 - minuses
@@ -561,7 +561,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 &lt;p&gt;Use whichever suits you best, personaly I like to asterisks.&lt;/p&gt;
 
-&lt;h3 id=&#34;ordered-lists:239730413a294903136e54d1dbf6d9d1&#34;&gt;Ordered Lists&lt;/h3&gt;
+&lt;h3 id=&#34;ordered-lists&#34;&gt;Ordered Lists&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;1. First ordered list item
 2. Another item
@@ -575,7 +575,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
   Note that this line is separate, but within the same paragraph.  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;links:239730413a294903136e54d1dbf6d9d1&#34;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;[click github](https://www.github.com)
 [click github](https://www.github.com &amp;quot;Github&#39;s Homepage Hint&amp;quot;)
@@ -585,7 +585,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 &lt;p&gt;&lt;a href=&#34;https://www.github.com&#34; title=&#34;Github&#39;s Homepage Hint&#34;&gt;click github with hint&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;images:239730413a294903136e54d1dbf6d9d1&#34;&gt;Images&lt;/h3&gt;
+&lt;h3 id=&#34;images&#34;&gt;Images&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Inline-style:
 ![alt text](https://ghost.org/assets/logos-d976c73a12a1a34a3db6be321db81f71.png &amp;quot;Logo Title Text 1&amp;quot;)
@@ -596,15 +596,15 @@ Reference-style:
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;code-and-syntax-highlighting:239730413a294903136e54d1dbf6d9d1&#34;&gt;Code and Syntax Highlighting&lt;/h3&gt;
+&lt;h3 id=&#34;code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/h3&gt;
 
 &lt;p&gt;Code blocks are part of the Markdown spec, but syntax highlighting isn&amp;rsquo;t. To add highlighting into ghost read &lt;a href=&#34;http://blog.davebalmer.com/adding-syntax-highlighting-to-ghost/&#34; title=&#34;Add highlighting to Ghost blog&#34;&gt;in this blog post&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;tables:239730413a294903136e54d1dbf6d9d1&#34;&gt;Tables&lt;/h3&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
 
 &lt;p&gt;At the moment Ghost does not support tables. Hopefully it will in the near future.&lt;/p&gt;
 
-&lt;h3 id=&#34;blockquotes:239730413a294903136e54d1dbf6d9d1&#34;&gt;Blockquotes&lt;/h3&gt;
+&lt;h3 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;gt; Blockquotes are very handy in email to emulate reply text.
 &amp;gt; This line is part of the same quote.
@@ -624,10 +624,10 @@ This line is part of the same quote.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is a very long line that will still be quoted properly when it wraps. Oh boy let&amp;rsquo;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em&gt;put&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt; into a blockquote.&lt;/p&gt;
 
-&lt;h3 id=&#34;horizontal-rule:239730413a294903136e54d1dbf6d9d1&#34;&gt;Horizontal Rule&lt;/h3&gt;
+&lt;h3 id=&#34;horizontal-rule&#34;&gt;Horizontal Rule&lt;/h3&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;inline-html:239730413a294903136e54d1dbf6d9d1&#34;&gt;Inline HTML&lt;/h3&gt;
+&lt;h3 id=&#34;inline-html&#34;&gt;Inline HTML&lt;/h3&gt;
 
 &lt;p&gt;Using HTML is very simple in markdown&lt;/p&gt;
 
@@ -642,7 +642,7 @@ This line is part of the same quote.&lt;/p&gt;
  &lt;li&gt;Item 2&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;line-breaks:239730413a294903136e54d1dbf6d9d1&#34;&gt;Line Breaks&lt;/h3&gt;
+&lt;h3 id=&#34;line-breaks&#34;&gt;Line Breaks&lt;/h3&gt;
 
 &lt;p&gt;To manipulate line breaks use &lt;em&gt;space&lt;/em&gt; and &lt;em&gt;Enter&lt;/em&gt;&lt;/p&gt;
 
@@ -689,15 +689,17 @@ a = [0, 1, 2, 3, 4, 5]    # array of 6 elements
 b = a.map { |x| 2**x }    # =&amp;gt; [1, 2, 4, 8, 16, 32]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;installing-prism:6f250022fee7cdd33f6557dfe0bc170e&#34;&gt;Installing Prism&lt;/h3&gt;
+&lt;h3 id=&#34;installing-prism&#34;&gt;Installing Prism&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Go to &lt;a href=&#34;http://prismjs.com/download.html&#34;&gt;prism download site&lt;/a&gt;, choose one of many themes (I personally use &lt;em&gt;Default&lt;/em&gt; theme, it looks nicely with my greyish, modified version of Casper theme), select languages for which you want to add syntax highlighting (you can also add plugins i.e. line numbers).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;http://prismjs.com/download.html&#34;&gt;prism download site&lt;/a&gt;, choose one of many themes (I personally use &lt;em&gt;Default&lt;/em&gt; theme, it looks nicely with my greyish, modified version of Casper theme), select languages for which you want to add syntax highlighting (you can also add plugins i.e. line numbers).&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Download your custom made &lt;strong&gt;prism.js&lt;/strong&gt; and &lt;strong&gt;prism.css&lt;/strong&gt; files.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Now you need to upload those files onto the server which hosts your blog. Great hosting site which I use and highly recommend is &lt;a href=&#34;https://www.digitalocean.com/?refcode=398e0cb398b4&#34;&gt;DigitalOcean&lt;/a&gt;. For upload I like to use &lt;code&gt;scp&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 
 &lt;pre&gt;&lt;code&gt;$ cd /directory/where/your/prisms/files/are
 $ scp prism.js prism.css your_login@servername.com:~
@@ -752,7 +754,7 @@ on the beginning of the file, it should look similarly to this&lt;/li&gt;
 
 &lt;p&gt;Now restart Ghost. If you are using &lt;a href=&#34;https://www.digitalocean.com/?refcode=398e0cb398b4&#34;&gt;DigitalOcean&lt;/a&gt;, simply type &lt;code&gt;$ service ghost restart&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;testing:6f250022fee7cdd33f6557dfe0bc170e&#34;&gt;Testing&lt;/h3&gt;
+&lt;h3 id=&#34;testing&#34;&gt;Testing&lt;/h3&gt;
 
 &lt;p&gt;Edit one of your posts and add a section at the end which looks similarly to mine (when I was creating my custom prism file, I added support for &lt;code&gt;javascript&lt;/code&gt; if you hadn&amp;rsquo;t, simply change &lt;em&gt;javascript&lt;/em&gt; into some language name which your prism version supports).&lt;/p&gt;
 
