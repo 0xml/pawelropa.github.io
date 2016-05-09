@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Books on  </title>
+      <title>Books on Pawel&#39;s blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
     <link>https://pawelropa.github.io/tags/books/</link>
     
-    <author>Paweł Ropa</author>
+    
     
     <updated>Tue, 14 Oct 2014 14:01:02 &#43;0100</updated>
     
@@ -13,7 +13,7 @@
       <title>superhuman by habit</title>
       <link>https://pawelropa.github.io/post/superhuman-by-habit/</link>
       <pubDate>Tue, 14 Oct 2014 14:01:02 &#43;0100</pubDate>
-      <author>Paweł Ropa</author>
+      
       <guid>https://pawelropa.github.io/post/superhuman-by-habit/</guid>
       <description>Good habits are essential to every productive person, I have been working on them very hard for over a year now. During this time I have read a few books on this topic, recently The Willpower Instinct by Kelly McGonigal Ph.D. Today I would like to talk about Tynan&amp;rsquo;s new book namely Superhuman by Habit. The book is segmented into two main parts - building habits and choosing them. It&amp;rsquo;s quite condensed, a good reader could finish entire book in one go, which I really like and it does not contain all the unnecessary fillers which are pretty common in other publications.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>The Fountainhead - Ayn Rand</title>
       <link>https://pawelropa.github.io/post/the-fountainhead-ayn-rand/</link>
       <pubDate>Sun, 13 Oct 2013 20:19:40 &#43;0100</pubDate>
-      <author>Paweł Ropa</author>
+      
       <guid>https://pawelropa.github.io/post/the-fountainhead-ayn-rand/</guid>
       <description>There are thousands, maybe even millions of books already written. They contain all human knowledge, however many of them aren’t worth reading, meaning our time on planet Earth is limited, thus one should read only books which worth is greatest. Some books have the power to change your life for better. Those are hard to find, especially because every one of us has different criteria of what better is. For some, better life means good relationships with others, for others it can be having more money, more challenges in live, possibility of pursuing ones dreams and visions.</description>
     </item>
@@ -31,7 +31,7 @@
       <title>Slight Edge - Jeff Olson</title>
       <link>https://pawelropa.github.io/post/slight-edge-jeff-olson/</link>
       <pubDate>Sun, 13 Oct 2013 20:02:17 &#43;0100</pubDate>
-      <author>Paweł Ropa</author>
+      
       <guid>https://pawelropa.github.io/post/slight-edge-jeff-olson/</guid>
       <description>Today&amp;rsquo;s short post will be about another great book namely Slight Edge by Jeff Olson. If I had to sum up the whole book in one sentance it would be - every day routine matters greatly. We all have this little day to day task, some are boring some are exciting, the problem with all is we simply stop doing them after few days or months. Reason? There will be no significant difference if we will not do those 10 pushups.</description>
     </item>
