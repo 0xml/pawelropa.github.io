@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Blog on  </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://pawelropa.github.io/tags/blog/</link>
+    
+    
+    
+    <updated>Sat, 01 Feb 2014 13:59:05 CET</updated>
+    
+    <item>
+      <title>Markdown and Ghost</title>
+      <link>https://pawelropa.github.io/post/markdown-and-ghost/</link>
+      <pubDate>Sat, 01 Feb 2014 13:59:05 CET</pubDate>
+      
+      <guid>https://pawelropa.github.io/post/markdown-and-ghost/</guid>
+      <description>What is markdown It&amp;rsquo;s a plain text formating syntax, which is easy to read, optionally it can be converted to HTML. Why use it Because it is really easy, fast and powerfull. Without markdown one can use basically text editor and mouse to format text, the other option is to write text in pure HTML to format it nicely, but it&amp;rsquo;s much harder (nobody really want to type those ugly tags).</description>
+    </item>
+    
+    <item>
+      <title>code highlighting in ghost</title>
+      <link>https://pawelropa.github.io/post/code-highlighting-in-ghost/</link>
+      <pubDate>Thu, 09 Jan 2014 13:58:32 CET</pubDate>
+      
+      <guid>https://pawelropa.github.io/post/code-highlighting-in-ghost/</guid>
+      <description>Ghost blogging platform is great. It suits my needs almost perfectly as I don&amp;rsquo;t need a colossal blogging platform with millions of plugins (and security vulnerabilities) like Wordpress. The posts editor is top notch, really like the preview functionality. For Ghost to be perfect I needed to add two main features; comments and code highlighting. This post will be about the latter. There are multiple choices for the javascript code which highlights syntax.</description>
+    </item>
+    
+  </channel>
+</rss>
+
