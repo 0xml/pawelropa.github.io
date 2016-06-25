@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Opengl on Pawel&#39;s blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://pawelropa.github.io/tags/opengl/</link>
+    
+    
+    
+    <updated>Tue, 10 May 2016 10:45:09 CEST</updated>
+    
+    <item>
+      <title>OpenGL Tutorial - Part 1</title>
+      <link>https://pawelropa.github.io/post/opengl-tutorial-1/</link>
+      <pubDate>Tue, 10 May 2016 10:45:09 CEST</pubDate>
+      
+      <guid>https://pawelropa.github.io/post/opengl-tutorial-1/</guid>
+      <description>Introdution I will not bore you with another long OpenGL introduction, there are planty of those on the internet already, instead we will jump right into creating our basic OpenGL project in Swift!!!</description>
+    </item>
+    
+  </channel>
+</rss>
+
