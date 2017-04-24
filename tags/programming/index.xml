@@ -15,7 +15,8 @@
       <pubDate>Sat, 12 Jul 2014 14:00:00 &#43;0100</pubDate>
       
       <guid>https://pawelropa.github.io/post/evolution-of-ios/</guid>
-      <description>It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea. iOS 4.0 Multitasking Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions: An application can request a finite amount of time to complete some important task.</description>
+      <description>It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.
+iOS 4.0 Multitasking Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions:</description>
     </item>
     
   </channel>
