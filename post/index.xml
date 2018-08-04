@@ -1,89 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Posts on Pawel&#39;s blog </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://pawelropa.github.io/post/</link>
+    <title>Posts on Big Cube</title>
+    <link>https://bigcube.ai/post/</link>
+    <description>Recent content in Posts on Big Cube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Oct 2014 14:01:02 +0100</lastBuildDate>
     
+	<atom:link href="https://bigcube.ai/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <updated>Tue, 14 Oct 2014 14:01:02 &#43;0100</updated>
     
     <item>
       <title>Superhuman By Habit</title>
-      <link>https://pawelropa.github.io/post/superhuman-by-habit/</link>
-      <pubDate>Tue, 14 Oct 2014 14:01:02 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/superhuman-by-habit/</link>
+      <pubDate>Tue, 14 Oct 2014 14:01:02 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/superhuman-by-habit/</guid>
+      <guid>https://bigcube.ai/post/superhuman-by-habit/</guid>
       <description>Good habits are essential to every productive person, I have been working on them very hard for over a year now. During this time I have read a few books on this topic, recently The Willpower Instinct by Kelly McGonigal Ph.D. Today I would like to talk about Tynan&amp;rsquo;s new book namely Superhuman by Habit.
 The book is segmented into two main parts - building habits and choosing them. It&amp;rsquo;s quite condensed, a good reader could finish entire book in one go, which I really like and it does not contain all the unnecessary fillers which are pretty common in other publications.</description>
     </item>
     
     <item>
       <title>reasons why you should switch to dvorak</title>
-      <link>https://pawelropa.github.io/post/reasons-why-you-should-switch-to-dvorak/</link>
-      <pubDate>Sun, 14 Sep 2014 14:00:29 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/reasons-why-you-should-switch-to-dvorak/</link>
+      <pubDate>Sun, 14 Sep 2014 14:00:29 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/reasons-why-you-should-switch-to-dvorak/</guid>
+      <guid>https://bigcube.ai/post/reasons-why-you-should-switch-to-dvorak/</guid>
       <description>Laptop is the most important device for many people around the world. Every software developer, like me, spends countless hours typing, thus one may argue keyboard is one of essential interfaces through which we interact with computer.
 Being fanatic of productivity makes me think very often about optimisations which can be applied to my live, productivity hacks but also about my health. Being healthy, staying in good shape makes me feel fantastic and thus happy, which is of crucial importance to producing great work.</description>
     </item>
     
     <item>
       <title>Evolution of iOS</title>
-      <link>https://pawelropa.github.io/post/evolution-of-ios/</link>
-      <pubDate>Sat, 12 Jul 2014 14:00:00 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/evolution-of-ios/</link>
+      <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/evolution-of-ios/</guid>
+      <guid>https://bigcube.ai/post/evolution-of-ios/</guid>
       <description>It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.
 iOS 4.0 Multitasking Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions:</description>
     </item>
     
     <item>
       <title>Morning routine</title>
-      <link>https://pawelropa.github.io/post/morning-routine/</link>
-      <pubDate>Sat, 14 Jun 2014 13:59:31 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/morning-routine/</link>
+      <pubDate>Sat, 14 Jun 2014 13:59:31 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/morning-routine/</guid>
+      <guid>https://bigcube.ai/post/morning-routine/</guid>
       <description>Getting a proper start on the morning is crucial to achieve high productivity during the rest of a day. It helps you to get into the right mindset. Rising early is also a common habit among many successful people. Margaret Thatcher was up every day at 5 a.m.; Howard Schultz is an early riser. When Ted Turner is being asked a question what is the secret to success? He answers.</description>
     </item>
     
     <item>
       <title>Markdown and Ghost</title>
-      <link>https://pawelropa.github.io/post/markdown-and-ghost/</link>
-      <pubDate>Sat, 01 Feb 2014 13:59:05 CET</pubDate>
+      <link>https://bigcube.ai/post/markdown-and-ghost/</link>
+      <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/markdown-and-ghost/</guid>
+      <guid>https://bigcube.ai/post/markdown-and-ghost/</guid>
       <description>What is markdown It&amp;rsquo;s a plain text formating syntax, which is easy to read, optionally it can be converted to HTML.
 Why use it Because it is really easy, fast and powerfull. Without markdown one can use basically text editor and mouse to format text, the other option is to write text in pure HTML to format it nicely, but it&amp;rsquo;s much harder (nobody really want to type those ugly tags).</description>
     </item>
     
     <item>
       <title>code highlighting in ghost</title>
-      <link>https://pawelropa.github.io/post/code-highlighting-in-ghost/</link>
-      <pubDate>Thu, 09 Jan 2014 13:58:32 CET</pubDate>
+      <link>https://bigcube.ai/post/code-highlighting-in-ghost/</link>
+      <pubDate>Thu, 09 Jan 2014 13:58:32 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/code-highlighting-in-ghost/</guid>
+      <guid>https://bigcube.ai/post/code-highlighting-in-ghost/</guid>
       <description>Ghost blogging platform is great. It suits my needs almost perfectly as I don&amp;rsquo;t need a colossal blogging platform with millions of plugins (and security vulnerabilities) like Wordpress. The posts editor is top notch, really like the preview functionality. For Ghost to be perfect I needed to add two main features; comments and code highlighting. This post will be about the latter.
 There are multiple choices for the javascript code which highlights syntax.</description>
     </item>
     
     <item>
       <title>work more</title>
-      <link>https://pawelropa.github.io/post/work-more/</link>
-      <pubDate>Sun, 05 Jan 2014 13:57:50 CET</pubDate>
+      <link>https://bigcube.ai/post/work-more/</link>
+      <pubDate>Sun, 05 Jan 2014 13:57:50 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/work-more/</guid>
+      <guid>https://bigcube.ai/post/work-more/</guid>
       <description>Love work Few days back I have read terrific post about work by Tynan. One of comments contained a link to an article about Mr Thomas Edison, more specific an interview with him. I clicked the link and started reading. To my surprise I&amp;rsquo;ve read Edison&amp;rsquo;s answer to one of the question
  &amp;ldquo;Well,&amp;rdquo; he replied, &amp;ldquo;for 15 years I have worked on an average of 20 hours a day.</description>
     </item>
     
     <item>
       <title>remote office not required</title>
-      <link>https://pawelropa.github.io/post/remote-office-not-required/</link>
-      <pubDate>Sat, 21 Dec 2013 20:50:33 CET</pubDate>
+      <link>https://bigcube.ai/post/remote-office-not-required/</link>
+      <pubDate>Sat, 21 Dec 2013 20:50:33 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/remote-office-not-required/</guid>
+      <guid>https://bigcube.ai/post/remote-office-not-required/</guid>
       <description>Today I have read for the second time terrific book Remote by Jason Fried &amp;amp; David Heinemeier Hansson. I feel like the book deserves a review so I will write a little summary of each chapter.
 ####The Time is Right For Remote Work
  Why work doesn&amp;rsquo;t happen at work.  Yes I know what they are talking about. When I was working nine-to-five job if I wanted to be really productive I had to come early or stay late to get my job done.</description>
@@ -91,10 +92,10 @@ There are multiple choices for the javascript code which highlights syntax.</des
     
     <item>
       <title>appcode vs xcode</title>
-      <link>https://pawelropa.github.io/post/appcode-vs-xcode/</link>
-      <pubDate>Wed, 13 Nov 2013 13:49:52 CET</pubDate>
+      <link>https://bigcube.ai/post/appcode-vs-xcode/</link>
+      <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/appcode-vs-xcode/</guid>
+      <guid>https://bigcube.ai/post/appcode-vs-xcode/</guid>
       <description>App Code
 I have bought AppCode about 8 months ago and have been using it sence then. It has a lot of features (especially in version 2.5.x JetBrains guys added some crazy ones). Currently some of the main ones are.
  Support for CocoaPods!
@@ -108,19 +109,19 @@ I have bought AppCode about 8 months ago and have been using it sence then. It h
     
     <item>
       <title>The Fountainhead - Ayn Rand</title>
-      <link>https://pawelropa.github.io/post/the-fountainhead-ayn-rand/</link>
-      <pubDate>Sun, 13 Oct 2013 20:19:40 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/the-fountainhead-ayn-rand/</link>
+      <pubDate>Sun, 13 Oct 2013 20:19:40 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/the-fountainhead-ayn-rand/</guid>
+      <guid>https://bigcube.ai/post/the-fountainhead-ayn-rand/</guid>
       <description>There are thousands, maybe even millions of books already written. They contain all human knowledge, however many of them aren’t worth reading, meaning our time on planet Earth is limited, thus one should read only books which worth is greatest. Some books have the power to change your life for better. Those are hard to find, especially because every one of us has different criteria of what better is. For some, better life means good relationships with others, for others it can be having more money, more challenges in live, possibility of pursuing ones dreams and visions.</description>
     </item>
     
     <item>
       <title>Slight Edge - Jeff Olson</title>
-      <link>https://pawelropa.github.io/post/slight-edge-jeff-olson/</link>
-      <pubDate>Sun, 13 Oct 2013 20:02:17 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/slight-edge-jeff-olson/</link>
+      <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/slight-edge-jeff-olson/</guid>
+      <guid>https://bigcube.ai/post/slight-edge-jeff-olson/</guid>
       <description>Today&amp;rsquo;s short post will be about another great book namely Slight Edge by Jeff Olson.
 If I had to sum up the whole book in one sentance it would be - every day routine matters greatly.
 We all have this little day to day task, some are boring some are exciting, the problem with all is we simply stop doing them after few days or months. Reason? There will be no significant difference if we will not do those 10 pushups.</description>
@@ -128,14 +129,13 @@ We all have this little day to day task, some are boring some are exciting, the 
     
     <item>
       <title>becoming a minimalist</title>
-      <link>https://pawelropa.github.io/post/becoming-a-minimalist/</link>
-      <pubDate>Tue, 03 Sep 2013 19:58:52 &#43;0100</pubDate>
+      <link>https://bigcube.ai/post/becoming-a-minimalist/</link>
+      <pubDate>Tue, 03 Sep 2013 19:58:52 +0100</pubDate>
       
-      <guid>https://pawelropa.github.io/post/becoming-a-minimalist/</guid>
+      <guid>https://bigcube.ai/post/becoming-a-minimalist/</guid>
       <description>Since last year I have been reading the minimalists blog. At first the idea of minimalism seemed silly to me, why would anybody willingly give up stuff, after all majority of people work so hard to get this new TV, or dress or whatever it is. The concept intrigued me.
 Last month doing my daily routine, reading hacker news I have encountered a blog post startup in Thailand. Cool story, I liked it so much that I have read this guy whole blog.</description>
     </item>
     
   </channel>
 </rss>
-
