@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Habbits on Big Cube</title>
-    <link>bigcube.ai/tags/habbits/</link>
+    <link>/tags/habbits/</link>
     <description>Recent content in Habbits on Big Cube</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 14 Jun 2014 13:59:31 +0100</lastBuildDate>
     
-	<atom:link href="bigcube.ai/tags/habbits/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/habbits/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Morning routine</title>
-      <link>bigcube.ai/post/morning-routine/</link>
+      <link>/post/morning-routine/</link>
       <pubDate>Sat, 14 Jun 2014 13:59:31 +0100</pubDate>
       
-      <guid>bigcube.ai/post/morning-routine/</guid>
+      <guid>/post/morning-routine/</guid>
       <description>Getting a proper start on the morning is crucial to achieve high productivity during the rest of a day. It helps you to get into the right mindset. Rising early is also a common habit among many successful people. Margaret Thatcher was up every day at 5 a.m.; Howard Schultz is an early riser. When Ted Turner is being asked a question what is the secret to success? He answers.</description>
     </item>
     
     <item>
       <title>Slight Edge - Jeff Olson</title>
-      <link>bigcube.ai/post/slight-edge-jeff-olson/</link>
+      <link>/post/slight-edge-jeff-olson/</link>
       <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
       
-      <guid>bigcube.ai/post/slight-edge-jeff-olson/</guid>
+      <guid>/post/slight-edge-jeff-olson/</guid>
       <description>Today&amp;rsquo;s short post will be about another great book namely Slight Edge by Jeff Olson.
 If I had to sum up the whole book in one sentance it would be - every day routine matters greatly.
 We all have this little day to day task, some are boring some are exciting, the problem with all is we simply stop doing them after few days or months. Reason? There will be no significant difference if we will not do those 10 pushups.</description>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xcode on Big Cube</title>
-    <link>bigcube.ai/tags/xcode/</link>
+    <link>/tags/xcode/</link>
     <description>Recent content in Xcode on Big Cube</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 13 Nov 2013 13:49:52 +0100</lastBuildDate>
     
-	<atom:link href="bigcube.ai/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>appcode vs xcode</title>
-      <link>bigcube.ai/post/appcode-vs-xcode/</link>
+      <link>/post/appcode-vs-xcode/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>bigcube.ai/post/appcode-vs-xcode/</guid>
+      <guid>/post/appcode-vs-xcode/</guid>
       <description>App Code
 I have bought AppCode about 8 months ago and have been using it sence then. It has a lot of features (especially in version 2.5.x JetBrains guys added some crazy ones). Currently some of the main ones are.
  Support for CocoaPods!

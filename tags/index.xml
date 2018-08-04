@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Big Cube</title>
-    <link>bigcube.ai/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Big Cube</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 13 Nov 2013 13:49:52 +0100</lastBuildDate>
     
-	<atom:link href="bigcube.ai/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Appcode</title>
-      <link>bigcube.ai/tags/appcode/</link>
+      <link>/tags/appcode/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/appcode/</guid>
+      <guid>/tags/appcode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>bigcube.ai/tags/blog/</link>
+      <link>/tags/blog/</link>
       <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Books</title>
-      <link>bigcube.ai/tags/books/</link>
+      <link>/tags/books/</link>
       <pubDate>Tue, 14 Oct 2014 14:01:02 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/books/</guid>
+      <guid>/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ghost</title>
-      <link>bigcube.ai/tags/ghost/</link>
+      <link>/tags/ghost/</link>
       <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/ghost/</guid>
+      <guid>/tags/ghost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Habbits</title>
-      <link>bigcube.ai/tags/habbits/</link>
+      <link>/tags/habbits/</link>
       <pubDate>Sat, 14 Jun 2014 13:59:31 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/habbits/</guid>
+      <guid>/tags/habbits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ios</title>
-      <link>bigcube.ai/tags/ios/</link>
+      <link>/tags/ios/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/ios/</guid>
+      <guid>/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lifestyle</title>
-      <link>bigcube.ai/tags/lifestyle/</link>
+      <link>/tags/lifestyle/</link>
       <pubDate>Tue, 14 Oct 2014 14:01:02 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/lifestyle/</guid>
+      <guid>/tags/lifestyle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Livestyle</title>
-      <link>bigcube.ai/tags/livestyle/</link>
+      <link>/tags/livestyle/</link>
       <pubDate>Sat, 14 Jun 2014 13:59:31 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/livestyle/</guid>
+      <guid>/tags/livestyle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Minimalism</title>
-      <link>bigcube.ai/tags/minimalism/</link>
+      <link>/tags/minimalism/</link>
       <pubDate>Tue, 03 Sep 2013 19:58:52 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/minimalism/</guid>
+      <guid>/tags/minimalism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Objc</title>
-      <link>bigcube.ai/tags/objc/</link>
+      <link>/tags/objc/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/objc/</guid>
+      <guid>/tags/objc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philosophy</title>
-      <link>bigcube.ai/tags/philosophy/</link>
+      <link>/tags/philosophy/</link>
       <pubDate>Sun, 13 Oct 2013 20:19:40 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/philosophy/</guid>
+      <guid>/tags/philosophy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plugins</title>
-      <link>bigcube.ai/tags/plugins/</link>
+      <link>/tags/plugins/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/plugins/</guid>
+      <guid>/tags/plugins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>bigcube.ai/tags/programming/</link>
+      <link>/tags/programming/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/programming/</guid>
+      <guid>/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Remote</title>
-      <link>bigcube.ai/tags/remote/</link>
+      <link>/tags/remote/</link>
       <pubDate>Sat, 21 Dec 2013 20:50:33 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/remote/</guid>
+      <guid>/tags/remote/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Routine</title>
-      <link>bigcube.ai/tags/routine/</link>
+      <link>/tags/routine/</link>
       <pubDate>Sat, 14 Jun 2014 13:59:31 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/routine/</guid>
+      <guid>/tags/routine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tynan</title>
-      <link>bigcube.ai/tags/tynan/</link>
+      <link>/tags/tynan/</link>
       <pubDate>Tue, 14 Oct 2014 14:01:02 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/tynan/</guid>
+      <guid>/tags/tynan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xcode</title>
-      <link>bigcube.ai/tags/xcode/</link>
+      <link>/tags/xcode/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>bigcube.ai/tags/xcode/</guid>
+      <guid>/tags/xcode/</guid>
       <description></description>
     </item>
     
