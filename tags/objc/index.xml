@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Objc on Big Cube</title>
-    <link>https://bigcube.ai/tags/objc/</link>
+    <link>bigcube.ai/tags/objc/</link>
     <description>Recent content in Objc on Big Cube</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 12 Jul 2014 14:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://bigcube.ai/tags/objc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="bigcube.ai/tags/objc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Evolution of iOS</title>
-      <link>https://bigcube.ai/post/evolution-of-ios/</link>
+      <link>bigcube.ai/post/evolution-of-ios/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
-      <guid>https://bigcube.ai/post/evolution-of-ios/</guid>
+      <guid>bigcube.ai/post/evolution-of-ios/</guid>
       <description>It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.
 iOS 4.0 Multitasking Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions:</description>
     </item>
     
     <item>
       <title>appcode vs xcode</title>
-      <link>https://bigcube.ai/post/appcode-vs-xcode/</link>
+      <link>bigcube.ai/post/appcode-vs-xcode/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
-      <guid>https://bigcube.ai/post/appcode-vs-xcode/</guid>
+      <guid>bigcube.ai/post/appcode-vs-xcode/</guid>
       <description>App Code
 I have bought AppCode about 8 months ago and have been using it sence then. It has a lot of features (especially in version 2.5.x JetBrains guys added some crazy ones). Currently some of the main ones are.
  Support for CocoaPods!
