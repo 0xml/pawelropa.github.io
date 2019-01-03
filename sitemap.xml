@@ -43,11 +43,6 @@
   </url>
   
   <url>
-    <loc>/post/becoming-a-minimalist/</loc>
-    <lastmod>2013-09-03T19:58:52+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/appcode/</loc>
     <lastmod>2013-11-13T13:49:52+01:00</lastmod>
     <priority>0</priority>
@@ -101,26 +96,8 @@
   </url>
   
   <url>
-    <loc>/tags/livestyle/</loc>
-    <lastmod>2013-09-03T19:58:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/minimalism/</loc>
-    <lastmod>2013-09-03T19:58:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/objc/</loc>
     <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/philosophy/</loc>
-    <lastmod>2013-09-03T19:58:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   
