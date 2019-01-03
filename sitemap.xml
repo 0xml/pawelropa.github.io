@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/superhuman-by-habit/</loc>
-    <lastmod>2014-10-14T14:01:02+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/reasons-why-you-should-switch-to-dvorak/</loc>
     <lastmod>2014-09-14T14:00:29+01:00</lastmod>
   </url>
@@ -15,11 +10,6 @@
   <url>
     <loc>/post/evolution-of-ios/</loc>
     <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/morning-routine/</loc>
-    <lastmod>2014-06-14T13:59:31+01:00</lastmod>
   </url>
   
   <url>
@@ -48,11 +38,6 @@
   </url>
   
   <url>
-    <loc>/post/the-fountainhead-ayn-rand/</loc>
-    <lastmod>2013-10-13T20:19:40+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/slight-edge-jeff-olson/</loc>
     <lastmod>2013-10-13T20:02:17+01:00</lastmod>
   </url>
@@ -70,7 +55,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-10-14T14:01:02+01:00</lastmod>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -82,7 +67,7 @@
   
   <url>
     <loc>/tags/books/</loc>
-    <lastmod>2014-10-14T14:01:02+01:00</lastmod>
+    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,7 +84,7 @@
   
   <url>
     <loc>/tags/habbits/</loc>
-    <lastmod>2014-06-14T13:59:31+01:00</lastmod>
+    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -111,13 +96,13 @@
   
   <url>
     <loc>/tags/lifestyle/</loc>
-    <lastmod>2014-10-14T14:01:02+01:00</lastmod>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/livestyle/</loc>
-    <lastmod>2014-06-14T13:59:31+01:00</lastmod>
+    <lastmod>2013-09-03T19:58:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -135,7 +120,7 @@
   
   <url>
     <loc>/tags/philosophy/</loc>
-    <lastmod>2013-10-13T20:19:40+01:00</lastmod>
+    <lastmod>2013-09-03T19:58:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,7 +132,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2014-10-14T14:01:02+01:00</lastmod>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -164,20 +149,8 @@
   </url>
   
   <url>
-    <loc>/tags/routine/</loc>
-    <lastmod>2014-06-14T13:59:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
     <lastmod>2013-11-13T13:49:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tynan/</loc>
-    <lastmod>2014-10-14T14:01:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
