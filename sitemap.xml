@@ -32,51 +32,6 @@
   </url>
   
   <url>
-    <loc>/post/evolution-of-ios/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ios/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/objc/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/programming/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/markdown-and-ghost/</loc>
-    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ghost/</loc>
-    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/code-highlighting-in-ghost/</loc>
-    <lastmod>2014-01-09T13:58:32+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/work-more/</loc>
     <lastmod>2014-01-05T13:57:50+01:00</lastmod>
   </url>

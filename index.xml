@@ -21,36 +21,6 @@ Being fanatic of productivity makes me think very often about optimisations whic
     </item>
     
     <item>
-      <title>Evolution of iOS</title>
-      <link>/post/evolution-of-ios/</link>
-      <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
-      
-      <guid>/post/evolution-of-ios/</guid>
-      <description>It&amp;rsquo;s important to know when a specific feature was introduced in which iOS, especially when there are some backwards compatibility issues, that&amp;rsquo;s the reason behind this article. I tried to make the descriptions of new features as short as possible, to give only a general idea.
-iOS 4.0 Multitasking Apps go into background mode when user presses home button. Previous versions of iOS terminated the app. Most of the apps after going to background mode are being suspended but there are some exceptions:</description>
-    </item>
-    
-    <item>
-      <title>Markdown and Ghost</title>
-      <link>/post/markdown-and-ghost/</link>
-      <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
-      
-      <guid>/post/markdown-and-ghost/</guid>
-      <description>What is markdown It&amp;rsquo;s a plain text formating syntax, which is easy to read, optionally it can be converted to HTML.
-Why use it Because it is really easy, fast and powerfull. Without markdown one can use basically text editor and mouse to format text, the other option is to write text in pure HTML to format it nicely, but it&amp;rsquo;s much harder (nobody really want to type those ugly tags).</description>
-    </item>
-    
-    <item>
-      <title>Code highlighting in ghost</title>
-      <link>/post/code-highlighting-in-ghost/</link>
-      <pubDate>Thu, 09 Jan 2014 13:58:32 +0100</pubDate>
-      
-      <guid>/post/code-highlighting-in-ghost/</guid>
-      <description>Ghost blogging platform is great. It suits my needs almost perfectly as I don&amp;rsquo;t need a colossal blogging platform with millions of plugins (and security vulnerabilities) like Wordpress. The posts editor is top notch, really like the preview functionality. For Ghost to be perfect I needed to add two main features; comments and code highlighting. This post will be about the latter.
-There are multiple choices for the javascript code which highlights syntax.</description>
-    </item>
-    
-    <item>
       <title>Work more</title>
       <link>/post/work-more/</link>
       <pubDate>Sun, 05 Jan 2014 13:57:50 +0100</pubDate>
