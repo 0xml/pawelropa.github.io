@@ -5,67 +5,13 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Big Cube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 Nov 2013 13:49:52 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2014 14:00:29 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Appcode</title>
-      <link>/tags/appcode/</link>
-      <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
-      
-      <guid>/tags/appcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
-      
-      <guid>/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>/tags/books/</link>
-      <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
-      
-      <guid>/tags/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ghost</title>
-      <link>/tags/ghost/</link>
-      <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
-      
-      <guid>/tags/ghost/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Habbits</title>
-      <link>/tags/habbits/</link>
-      <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
-      
-      <guid>/tags/habbits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>/tags/ios/</link>
-      <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
-      
-      <guid>/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lifestyle</title>
+      <title>lifestyle</title>
       <link>/tags/lifestyle/</link>
       <pubDate>Sun, 14 Sep 2014 14:00:29 +0100</pubDate>
       
@@ -74,7 +20,16 @@
     </item>
     
     <item>
-      <title>Objc</title>
+      <title>ios</title>
+      <link>/tags/ios/</link>
+      <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
+      
+      <guid>/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>objc</title>
       <link>/tags/objc/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
@@ -83,16 +38,7 @@
     </item>
     
     <item>
-      <title>Plugins</title>
-      <link>/tags/plugins/</link>
-      <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
-      
-      <guid>/tags/plugins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
+      <title>programming</title>
       <link>/tags/programming/</link>
       <pubDate>Sat, 12 Jul 2014 14:00:00 +0100</pubDate>
       
@@ -101,7 +47,25 @@
     </item>
     
     <item>
-      <title>Remote</title>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ghost</title>
+      <link>/tags/ghost/</link>
+      <pubDate>Sat, 01 Feb 2014 13:59:05 +0100</pubDate>
+      
+      <guid>/tags/ghost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote</title>
       <link>/tags/remote/</link>
       <pubDate>Sat, 21 Dec 2013 20:50:33 +0100</pubDate>
       
@@ -110,11 +74,47 @@
     </item>
     
     <item>
-      <title>Xcode</title>
+      <title>appcode</title>
+      <link>/tags/appcode/</link>
+      <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
+      
+      <guid>/tags/appcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plugins</title>
+      <link>/tags/plugins/</link>
+      <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
+      
+      <guid>/tags/plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xcode</title>
       <link>/tags/xcode/</link>
       <pubDate>Wed, 13 Nov 2013 13:49:52 +0100</pubDate>
       
       <guid>/tags/xcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>/tags/books/</link>
+      <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>habbits</title>
+      <link>/tags/habbits/</link>
+      <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
+      
+      <guid>/tags/habbits/</guid>
       <description></description>
     </item>
     

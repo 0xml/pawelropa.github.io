@@ -65,7 +65,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.53" />
+    <meta name="generator" content="Hugo 0.55.6" />
 
     <link rel="canonical" href="/post/code-highlighting-in-ghost/" />
 
@@ -78,13 +78,13 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": 
+        "name":  null 
     },
     "author": {
         "@type": "Person",
-        "name": ,
+        "name":  null ,
         
-        "url": ,
+        "url":  null ,
         "sameAs": [
             
             
@@ -96,23 +96,23 @@
             
         ]
     },
-    "headline": Code highlighting in ghost,
-    "name": Code highlighting in ghost,
-    "wordCount": 509,
+    "headline": "Code highlighting in ghost",
+    "name": "Code highlighting in ghost",
+    "wordCount":  509 ,
     "timeRequired": "PT3M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": /post/code-highlighting-in-ghost/,
-    "datePublished": 2014-01-09T13:58Z,
-    "dateModified": 2014-01-09T13:58Z,
+    "url": "/post/code-highlighting-in-ghost/",
+    "datePublished": "2014-01-09T13:58Z",
+    "dateModified": "2014-01-09T13:58Z",
     
-    "keywords": blog, ghost,
-    "description": ,
+    "keywords": "blog, ghost",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/code-highlighting-in-ghost/
+        "@id": "/post/code-highlighting-in-ghost/"
     }
 }
     </script>
@@ -216,33 +216,28 @@ b = a.map { |x| 2**x }    # =&gt; [1, 2, 4, 8, 16, 32]
 <ol>
 <li><p>Download your custom made <strong>prism.js</strong> and <strong>prism.css</strong> files.</p></li>
 
-<li><p>Now you need to upload those files onto the server which hosts your blog. Great hosting site which I use and highly recommend is <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>. For upload I like to use <code>scp</code>.</p></li>
-</ol>
+<li><p>Now you need to upload those files onto the server which hosts your blog. Great hosting site which I use and highly recommend is <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>. For upload I like to use <code>scp</code>.</p>
 
 <pre><code>$ cd /directory/where/your/prisms/files/are
 $ scp prism.js prism.css your_login@servername.com:~
-</code></pre>
+</code></pre></li>
+</ol>
 
 <ul>
-<li>Your files have been uploaded onto your server. Now you need to move them into your Ghost theme directory. Login and type.</li>
-</ul>
+<li><p>Your files have been uploaded onto your server. Now you need to move them into your Ghost theme directory. Login and type.</p>
 
 <pre><code>$ mv prism.js /var/www/directoryghost/content/themes/casper/assets/js/
 $ mv prism.css /var/www/directoryghost/content/themes/casper/assets/css/
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>Now you need to edit <code>default.hbs</code> file which resides inside your default theme folder.</li>
-</ul>
+<li><p>Now you need to edit <code>default.hbs</code> file which resides inside your default theme folder.</p>
 
 <pre><code>$ cd /var/www/directoryghost/content/themes/casper/
 $ nano default.hbs
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>Add this code <code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{{asset &quot;css/prism.css&quot;}}&quot; /&gt;</code>
-on the beginning of the file, it should look similarly to this</li>
-</ul>
+<li><p>Add this code <code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{{asset &quot;css/prism.css&quot;}}&quot; /&gt;</code>
+on the beginning of the file, it should look similarly to this</p>
 
 <pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
 
@@ -255,11 +250,9 @@ on the beginning of the file, it should look similarly to this</li>
 // Here
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;{{asset &quot;css/prism.css&quot;}}&quot; /&gt;
 
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>And this code <code>&lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/prism.js&quot;}}&quot;&gt;&lt;/script&gt;</code> near the end.</li>
-</ul>
+<li><p>And this code <code>&lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/prism.js&quot;}}&quot;&gt;&lt;/script&gt;</code> near the end.</p>
 
 <pre><code>{{! The main JavaScript file for Casper }}
 &lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/jquery.fitvids.js&quot;}}&quot;&gt;&lt;/script&gt;
@@ -268,7 +261,8 @@ on the beginning of the file, it should look similarly to this</li>
 //Here
 &lt;script type=&quot;text/javascript&quot; src=&quot;{{asset &quot;js/prism.js&quot;}}&quot;&gt;&lt;/script&gt;
 
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>Now restart Ghost. If you are using <a href="https://www.digitalocean.com/?refcode=398e0cb398b4">DigitalOcean</a>, simply type <code>$ service ghost restart</code>.</p>
 

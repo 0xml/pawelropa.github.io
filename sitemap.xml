@@ -3,8 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/reasons-why-you-should-switch-to-dvorak/</loc>
     <lastmod>2014-09-14T14:00:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lifestyle/</loc>
+    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,8 +37,38 @@
   </url>
   
   <url>
+    <loc>/tags/ios/</loc>
+    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/objc/</loc>
+    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/markdown-and-ghost/</loc>
     <lastmod>2014-02-01T13:59:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
+    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ghost/</loc>
+    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -33,71 +87,19 @@
   </url>
   
   <url>
+    <loc>/tags/remote/</loc>
+    <lastmod>2013-12-21T20:50:33+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/appcode-vs-xcode/</loc>
     <lastmod>2013-11-13T13:49:52+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/slight-edge-jeff-olson/</loc>
-    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/appcode/</loc>
     <lastmod>2013-11-13T13:49:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/books/</loc>
-    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ghost/</loc>
-    <lastmod>2014-02-01T13:59:05+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/habbits/</loc>
-    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ios/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/lifestyle/</loc>
-    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/objc/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,32 +110,30 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2014-09-14T14:00:29+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/programming/</loc>
-    <lastmod>2014-07-12T14:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/remote/</loc>
-    <lastmod>2013-12-21T20:50:33+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2013-11-13T13:49:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/xcode/</loc>
     <lastmod>2013-11-13T13:49:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/slight-edge-jeff-olson/</loc>
+    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/books/</loc>
+    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/habbits/</loc>
+    <lastmod>2013-10-13T20:02:17+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
