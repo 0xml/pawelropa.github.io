@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>lifestyle on nmr.ai</title>
-    <link>/tags/lifestyle/</link>
-    <description>Recent content in lifestyle on nmr.ai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 21 Dec 2013 20:50:33 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Remote - office not required</title>
-      <link>/post/remote-office-not-required/</link>
-      <pubDate>Sat, 21 Dec 2013 20:50:33 +0100</pubDate>
-      
-      <guid>/post/remote-office-not-required/</guid>
-      <description>Today I have read for the second time terrific book Remote by Jason Fried &amp;amp; David Heinemeier Hansson. I feel like the book deserves a review so I will write a little summary of each chapter.
+	<channel>
+		<title>lifestyle on nmr.ai</title>
+		<link>/tags/lifestyle/</link>
+		<description>Recent content in lifestyle </description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+		<managingEditor>Page(/tags/lifestyle)</managingEditor>
+    	
+  		<lastBuildDate>Sat, 21 Dec 2013 20:50:33 +0100</lastBuildDate>
+		
+		<atom:link href="/tags/lifestyle/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Remote - office not required</title>
+			<link>/post/remote-office-not-required/</link>
+			<pubDate>Sat, 21 Dec 2013 20:50:33 +0100</pubDate>
+			<guid>/post/remote-office-not-required/</guid>
+			<description>Today I have read for the second time terrific book Remote by Jason Fried &amp;amp; David Heinemeier Hansson. I feel like the book deserves a review so I will write a little summary of each chapter.
 The Time is Right For Remote Work  Why work doesn&amp;rsquo;t happen at work.  Yes I know what they are talking about. When I was working nine-to-five job if I wanted to be really productive I had to come early or stay late to get my job done.</description>
-    </item>
-    
-  </channel>
+		</item>
+      	
+	</channel>
 </rss>
