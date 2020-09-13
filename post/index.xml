@@ -1,34 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Big Cube</title>
+    <title>Posts on nmr.ai</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Big Cube</description>
+    <description>Recent content in Posts on nmr.ai</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 14 Sep 2014 14:00:29 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2013 20:50:33 +0100</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Reasons why you should switch to dvorak</title>
-      <link>/post/reasons-why-you-should-switch-to-dvorak/</link>
-      <pubDate>Sun, 14 Sep 2014 14:00:29 +0100</pubDate>
-      
-      <guid>/post/reasons-why-you-should-switch-to-dvorak/</guid>
-      <description>Laptop is the most important device for many people around the world. Every software developer, like me, spends countless hours typing, thus one may argue keyboard is one of essential interfaces through which we interact with computer.
-Being fanatic of productivity makes me think very often about optimisations which can be applied to my live, productivity hacks but also about my health. Being healthy, staying in good shape makes me feel fantastic and thus happy, which is of crucial importance to producing great work.</description>
-    </item>
-    
-    <item>
-      <title>Work more</title>
-      <link>/post/work-more/</link>
-      <pubDate>Sun, 05 Jan 2014 13:57:50 +0100</pubDate>
-      
-      <guid>/post/work-more/</guid>
-      <description>Love work Few days back I have read terrific post about work by Tynan. One of comments contained a link to an article about Mr Thomas Edison, more specific an interview with him. I clicked the link and started reading. To my surprise I&amp;rsquo;ve read Edison&amp;rsquo;s answer to one of the question
- &amp;ldquo;Well,&amp;rdquo; he replied, &amp;ldquo;for 15 years I have worked on an average of 20 hours a day.</description>
-    </item>
     
     <item>
       <title>Remote - office not required</title>
@@ -38,17 +18,6 @@ Being fanatic of productivity makes me think very often about optimisations whic
       <guid>/post/remote-office-not-required/</guid>
       <description>Today I have read for the second time terrific book Remote by Jason Fried &amp;amp; David Heinemeier Hansson. I feel like the book deserves a review so I will write a little summary of each chapter.
 The Time is Right For Remote Work  Why work doesn&amp;rsquo;t happen at work.  Yes I know what they are talking about. When I was working nine-to-five job if I wanted to be really productive I had to come early or stay late to get my job done.</description>
-    </item>
-    
-    <item>
-      <title>Slight Edge - Jeff Olson</title>
-      <link>/post/slight-edge-jeff-olson/</link>
-      <pubDate>Sun, 13 Oct 2013 20:02:17 +0100</pubDate>
-      
-      <guid>/post/slight-edge-jeff-olson/</guid>
-      <description>Today&amp;rsquo;s short post will be about another great book namely Slight Edge by Jeff Olson.
-If I had to sum up the whole book in one sentance it would be - every day routine matters greatly.
-We all have this little day to day task, some are boring some are exciting, the problem with all is we simply stop doing them after few days or months. Reason? There will be no significant difference if we will not do those 10 pushups.</description>
     </item>
     
   </channel>
